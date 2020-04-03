@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>English Quiz</title>
+    <link rel="stylesheet" href="style.css">
+	<link rel="icon" type="image/png" href="img/tabicon.png">
+</head>
+<body>
+    <div id="container">
+        <div id="start">English</div>
+		<div id="logo"><img src="img/banner.png"></div>
+		<div id="startauthor"><img src="img/icon.png"></div>
+		<div id="levels">
+                <div class="level" id="lv1" onclick="setDifficulty('1')">Level 1</div>
+                <div class="level" id="lv2" onclick="setDifficulty('2')">Level 2</div>
+                <div class="level" id="lv3" onclick="setDifficulty('3')">Level 3</div>
+				<div class="level" id="lv4" onclick="setDifficulty('4')">Level 4</div>
+				<div class="level" id="lv5" onclick="setDifficulty('5')">Level 5</div>
+        </div>
+        <div id="quiz" style="display: none">
+            <div id="question"><p>Question</p></div>
+            <div id="qImg"><img src="img/banner.png"></div> 
+			<div id="qlevel">Level 1</div>
+            <div id="choices">
+                <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+                <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+                <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+            </div>
+            <div id="timer">
+                <div id="counter"></div>
+                <div id="btimeGauge"></div>
+                <div id="timeGauge"></div>
+            </div>
+            <div id="progress"></div>
+			<div id="author"><img src="img/icon.png"></div>
+        </div>
+        <div id="scoreContainer" style="display: none">
+			<div id="levelreport"></div>
+			<div id="starContainer"></div>
+			<div id="scorereport"></div>
+			<div id="restart" onclick="restart(currentlevel)">&#8634; Again?</div>
+			<div id="levelup" onclick="levelup()">&#8593; Level Up</div>
+			<div id="mainmenu" onclick="mainmenu()">&#8617; Main Menu</div>
+		</div>
+    </div>
+	<audio id="yesaudio"> 
+		<source src="sound/effect/yes.ogg" type="audio/ogg">
+		<source src="sound/effect/yes.mp3" type="audio/mpeg">
+	</audio>
+	<audio id="noaudio">
+		<source src="sound/effect/no.ogg" type="audio/ogg">
+		<source src="sound/effect/no.mp3" type="audio/mpeg">
+	</audio>
+	<audio id="questionaudio">
+	</audio>
+	<script src="english_data.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
