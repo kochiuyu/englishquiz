@@ -1,88 +1,88 @@
 var questionbank=[
     {
-        "oggSrc": "sound/action/English/jump.ogg",
-        "choiceA": "jump",
-        "choiceB": "walk",
-        "choiceC": "jog",
-        "correct": "A",
-        "category": "action",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/action/English/walk.ogg",
-        "choiceA": "sleep",
+        "oggSrc": "sound/action/english/jump.ogg",
+        "choiceA": "stand",
         "choiceB": "drink",
-        "choiceC": "walk",
+        "choiceC": "jump",
         "correct": "C",
         "category": "action",
         "level": 1
     },
     {
-        "oggSrc": "sound/action/English/run.ogg",
-        "choiceA": "run",
-        "choiceB": "eat",
+        "oggSrc": "sound/action/english/walk.ogg",
+        "choiceA": "walk",
+        "choiceB": "stand",
+        "choiceC": "sit",
+        "correct": "A",
+        "category": "action",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/action/english/run.ogg",
+        "choiceA": "sit",
+        "choiceB": "stand",
+        "choiceC": "run",
+        "correct": "C",
+        "category": "action",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/action/english/jog.ogg",
+        "choiceA": "jog",
+        "choiceB": "jump",
+        "choiceC": "eat",
+        "correct": "A",
+        "category": "action",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/action/english/eat.ogg",
+        "choiceA": "eat",
+        "choiceB": "jog",
         "choiceC": "drink",
         "correct": "A",
         "category": "action",
         "level": 1
     },
     {
-        "oggSrc": "sound/action/English/jog.ogg",
+        "oggSrc": "sound/action/english/drink.ogg",
         "choiceA": "sit",
-        "choiceB": "jog",
+        "choiceB": "drink",
         "choiceC": "jump",
         "correct": "B",
         "category": "action",
         "level": 1
     },
     {
-        "oggSrc": "sound/action/English/eat.ogg",
-        "choiceA": "eat",
-        "choiceB": "sleep",
-        "choiceC": "walk",
-        "correct": "A",
-        "category": "action",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/action/English/drink.ogg",
-        "choiceA": "sit",
-        "choiceB": "drink",
-        "choiceC": "eat",
+        "oggSrc": "sound/action/english/swim.ogg",
+        "choiceA": "stand",
+        "choiceB": "swim",
+        "choiceC": "jump",
         "correct": "B",
         "category": "action",
         "level": 1
     },
     {
-        "oggSrc": "sound/action/English/swim.ogg",
-        "choiceA": "swim",
-        "choiceB": "jump",
-        "choiceC": "jog",
-        "correct": "A",
-        "category": "action",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/action/English/sleep.ogg",
+        "oggSrc": "sound/action/english/sleep.ogg",
         "choiceA": "jump",
-        "choiceB": "jog",
-        "choiceC": "sleep",
-        "correct": "C",
+        "choiceB": "sleep",
+        "choiceC": "stand",
+        "correct": "B",
         "category": "action",
         "level": 1
     },
     {
-        "oggSrc": "sound/action/English/sit.ogg",
-        "choiceA": "stand",
-        "choiceB": "eat",
+        "oggSrc": "sound/action/english/sit.ogg",
+        "choiceA": "jog",
+        "choiceB": "jump",
         "choiceC": "sit",
         "correct": "C",
         "category": "action",
         "level": 1
     },
     {
-        "oggSrc": "sound/action/English/stand.ogg",
-        "choiceA": "run",
+        "oggSrc": "sound/action/english/stand.ogg",
+        "choiceA": "sit",
         "choiceB": "stand",
         "choiceC": "jump",
         "correct": "B",
@@ -90,629 +90,629 @@ var questionbank=[
         "level": 1
     },
     {
-        "oggSrc": "sound/animal/English/bird.ogg",
+        "oggSrc": "sound/animal/english/bird.ogg",
         "choiceA": "bird",
-        "choiceB": "shark",
-        "choiceC": "zebra",
-        "correct": "A",
-        "category": "animal",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/animal/English/dog.ogg",
-        "choiceA": "lion",
-        "choiceB": "ostrich",
-        "choiceC": "dog",
-        "correct": "C",
-        "category": "animal",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/animal/English/cat.ogg",
-        "choiceA": "deer",
-        "choiceB": "dolphin",
-        "choiceC": "cat",
-        "correct": "C",
-        "category": "animal",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/animal/English/elephant.ogg",
-        "choiceA": "jellyfish",
-        "choiceB": "elephant",
-        "choiceC": "mouse",
-        "correct": "B",
-        "category": "animal",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/animal/English/snake.ogg",
-        "choiceA": "dog",
-        "choiceB": "snake",
-        "choiceC": "bat",
-        "correct": "B",
-        "category": "animal",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/animal/English/dinosaur.ogg",
-        "choiceA": "dinosaur",
-        "choiceB": "crab",
-        "choiceC": "zebra",
-        "correct": "A",
-        "category": "animal",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/animal/English/frog.ogg",
-        "choiceA": "whale",
-        "choiceB": "frog",
-        "choiceC": "jellyfish",
-        "correct": "B",
-        "category": "animal",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/animal/English/spider.ogg",
-        "choiceA": "spider",
-        "choiceB": "wolf",
+        "choiceB": "bat",
         "choiceC": "turkey",
         "correct": "A",
         "category": "animal",
         "level": 1
     },
     {
-        "oggSrc": "sound/animal/English/dove.ogg",
-        "choiceA": "cat",
+        "oggSrc": "sound/animal/english/dog.ogg",
+        "choiceA": "mouse",
         "choiceB": "dog",
-        "choiceC": "dove",
-        "correct": "C",
-        "category": "animal",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/animal/English/duck.ogg",
-        "choiceA": "penguin",
-        "choiceB": "duck",
-        "choiceC": "whale",
+        "choiceC": "duck",
         "correct": "B",
         "category": "animal",
         "level": 1
     },
     {
-        "oggSrc": "sound/animal/English/goose.ogg",
+        "oggSrc": "sound/animal/english/cat.ogg",
+        "choiceA": "hawk",
+        "choiceB": "cat",
+        "choiceC": "dolphin",
+        "correct": "B",
+        "category": "animal",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/animal/english/elephant.ogg",
+        "choiceA": "elephant",
+        "choiceB": "bee",
+        "choiceC": "penguin",
+        "correct": "A",
+        "category": "animal",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/animal/english/snake.ogg",
+        "choiceA": "lion",
+        "choiceB": "snake",
+        "choiceC": "elephant",
+        "correct": "B",
+        "category": "animal",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/animal/english/dinosaur.ogg",
+        "choiceA": "panda",
+        "choiceB": "lion",
+        "choiceC": "dinosaur",
+        "correct": "C",
+        "category": "animal",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/animal/english/frog.ogg",
+        "choiceA": "frog",
+        "choiceB": "crab",
+        "choiceC": "duck",
+        "correct": "A",
+        "category": "animal",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/animal/english/spider.ogg",
+        "choiceA": "spider",
+        "choiceB": "goose",
+        "choiceC": "snail",
+        "correct": "A",
+        "category": "animal",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/animal/english/dove.ogg",
+        "choiceA": "dove",
+        "choiceB": "fox",
+        "choiceC": "zebra",
+        "correct": "A",
+        "category": "animal",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/animal/english/duck.ogg",
+        "choiceA": "jellyfish",
+        "choiceB": "duck",
+        "choiceC": "zebra",
+        "correct": "B",
+        "category": "animal",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/animal/english/goose.ogg",
         "choiceA": "goose",
-        "choiceB": "hawk",
+        "choiceB": "ostrich",
+        "choiceC": "cat",
+        "correct": "A",
+        "category": "animal",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/animal/english/hawk.ogg",
+        "choiceA": "hawk",
+        "choiceB": "fox",
         "choiceC": "mouse",
         "correct": "A",
         "category": "animal",
         "level": 1
     },
     {
-        "oggSrc": "sound/animal/English/hawk.ogg",
-        "choiceA": "hawk",
-        "choiceB": "frog",
-        "choiceC": "tiger",
-        "correct": "A",
-        "category": "animal",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/animal/English/ostrich.ogg",
+        "oggSrc": "sound/animal/english/ostrich.ogg",
         "choiceA": "ostrich",
-        "choiceB": "cat",
-        "choiceC": "fish",
-        "correct": "A",
-        "category": "animal",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/animal/English/owl.ogg",
-        "choiceA": "spider",
-        "choiceB": "crab",
-        "choiceC": "owl",
-        "correct": "C",
-        "category": "animal",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/animal/English/penguin.ogg",
-        "choiceA": "penguin",
-        "choiceB": "deer",
+        "choiceB": "butterfly",
         "choiceC": "ant",
         "correct": "A",
         "category": "animal",
         "level": 1
     },
     {
-        "oggSrc": "sound/animal/English/turkey.ogg",
-        "choiceA": "owl",
-        "choiceB": "dove",
-        "choiceC": "turkey",
-        "correct": "C",
-        "category": "animal",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/animal/English/butterfly.ogg",
-        "choiceA": "shrimp",
-        "choiceB": "spider",
-        "choiceC": "butterfly",
-        "correct": "C",
-        "category": "animal",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/animal/English/crab.ogg",
-        "choiceA": "butterfly",
-        "choiceB": "crab",
+        "oggSrc": "sound/animal/english/owl.ogg",
+        "choiceA": "snail",
+        "choiceB": "ant",
         "choiceC": "owl",
-        "correct": "B",
+        "correct": "C",
         "category": "animal",
         "level": 1
     },
     {
-        "oggSrc": "sound/animal/English/fish.ogg",
-        "choiceA": "fish",
-        "choiceB": "tiger",
-        "choiceC": "dolphin",
+        "oggSrc": "sound/animal/english/penguin.ogg",
+        "choiceA": "penguin",
+        "choiceB": "snail",
+        "choiceC": "mouse",
         "correct": "A",
         "category": "animal",
         "level": 1
     },
     {
-        "oggSrc": "sound/animal/English/jellyfish.ogg",
+        "oggSrc": "sound/animal/english/turkey.ogg",
+        "choiceA": "bee",
+        "choiceB": "turkey",
+        "choiceC": "bird",
+        "correct": "B",
+        "category": "animal",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/animal/english/butterfly.ogg",
+        "choiceA": "bird",
+        "choiceB": "butterfly",
+        "choiceC": "squirrel",
+        "correct": "B",
+        "category": "animal",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/animal/english/crab.ogg",
+        "choiceA": "shrimp",
+        "choiceB": "crab",
+        "choiceC": "chimpanzee",
+        "correct": "B",
+        "category": "animal",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/animal/english/fish.ogg",
+        "choiceA": "fish",
+        "choiceB": "chimpanzee",
+        "choiceC": "zebra",
+        "correct": "A",
+        "category": "animal",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/animal/english/jellyfish.ogg",
         "choiceA": "panda",
-        "choiceB": "pig",
+        "choiceB": "lion",
         "choiceC": "jellyfish",
         "correct": "C",
         "category": "animal",
         "level": 1
     },
     {
-        "oggSrc": "sound/animal/English/shark.ogg",
-        "choiceA": "snake",
-        "choiceB": "jellyfish",
+        "oggSrc": "sound/animal/english/shark.ogg",
+        "choiceA": "elephant",
+        "choiceB": "pig",
         "choiceC": "shark",
         "correct": "C",
         "category": "animal",
         "level": 1
     },
     {
-        "oggSrc": "sound/animal/English/shell.ogg",
-        "choiceA": "snail",
-        "choiceB": "owl",
-        "choiceC": "shell",
-        "correct": "C",
+        "oggSrc": "sound/animal/english/shell.ogg",
+        "choiceA": "snake",
+        "choiceB": "shell",
+        "choiceC": "bat",
+        "correct": "B",
         "category": "animal",
         "level": 1
     },
     {
-        "oggSrc": "sound/animal/English/shrimp.ogg",
-        "choiceA": "spider",
-        "choiceB": "dog",
+        "oggSrc": "sound/animal/english/shrimp.ogg",
+        "choiceA": "fox",
+        "choiceB": "mouse",
         "choiceC": "shrimp",
         "correct": "C",
         "category": "animal",
         "level": 1
     },
     {
-        "oggSrc": "sound/animal/English/ant.ogg",
-        "choiceA": "deer",
-        "choiceB": "ant",
-        "choiceC": "beetle",
-        "correct": "B",
-        "category": "animal",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/animal/English/bee.ogg",
-        "choiceA": "dog",
-        "choiceB": "bee",
-        "choiceC": "chimpanzee",
-        "correct": "B",
-        "category": "animal",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/animal/English/dragonfly.ogg",
-        "choiceA": "panda",
-        "choiceB": "snail",
-        "choiceC": "dragonfly",
+        "oggSrc": "sound/animal/english/ant.ogg",
+        "choiceA": "turkey",
+        "choiceB": "snake",
+        "choiceC": "ant",
         "correct": "C",
         "category": "animal",
         "level": 1
     },
     {
-        "oggSrc": "sound/animal/English/beetle.ogg",
-        "choiceA": "beetle",
-        "choiceB": "frog",
-        "choiceC": "dragonfly",
-        "correct": "A",
+        "oggSrc": "sound/animal/english/bee.ogg",
+        "choiceA": "mouse",
+        "choiceB": "dragonfly",
+        "choiceC": "bee",
+        "correct": "C",
         "category": "animal",
         "level": 1
     },
     {
-        "oggSrc": "sound/animal/English/mouse.ogg",
-        "choiceA": "mouse",
-        "choiceB": "hawk",
+        "oggSrc": "sound/animal/english/dragonfly.ogg",
+        "choiceA": "dog",
+        "choiceB": "dragonfly",
+        "choiceC": "whale",
+        "correct": "B",
+        "category": "animal",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/animal/english/beetle.ogg",
+        "choiceA": "cat",
+        "choiceB": "whale",
+        "choiceC": "beetle",
+        "correct": "C",
+        "category": "animal",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/animal/english/mouse.ogg",
+        "choiceA": "fox",
+        "choiceB": "bat",
+        "choiceC": "mouse",
+        "correct": "C",
+        "category": "animal",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/animal/english/bat.ogg",
+        "choiceA": "penguin",
+        "choiceB": "turkey",
+        "choiceC": "bat",
+        "correct": "C",
+        "category": "animal",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/animal/english/chimpanzee.ogg",
+        "choiceA": "chimpanzee",
+        "choiceB": "squirrel",
         "choiceC": "goose",
         "correct": "A",
         "category": "animal",
         "level": 1
     },
     {
-        "oggSrc": "sound/animal/English/bat.ogg",
-        "choiceA": "whale",
-        "choiceB": "bat",
-        "choiceC": "chimpanzee",
-        "correct": "B",
+        "oggSrc": "sound/animal/english/monkey.ogg",
+        "choiceA": "dragonfly",
+        "choiceB": "snake",
+        "choiceC": "monkey",
+        "correct": "C",
         "category": "animal",
         "level": 1
     },
     {
-        "oggSrc": "sound/animal/English/chimpanzee.ogg",
-        "choiceA": "elephant",
-        "choiceB": "chimpanzee",
-        "choiceC": "mouse",
-        "correct": "B",
-        "category": "animal",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/animal/English/monkey.ogg",
-        "choiceA": "monkey",
-        "choiceB": "bee",
-        "choiceC": "squirrel",
-        "correct": "A",
-        "category": "animal",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/animal/English/deer.ogg",
-        "choiceA": "duck",
-        "choiceB": "deer",
-        "choiceC": "dolphin",
-        "correct": "B",
-        "category": "animal",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/animal/English/fox.ogg",
-        "choiceA": "fox",
-        "choiceB": "turkey",
+        "oggSrc": "sound/animal/english/deer.ogg",
+        "choiceA": "frog",
+        "choiceB": "panda",
         "choiceC": "deer",
-        "correct": "A",
+        "correct": "C",
         "category": "animal",
         "level": 1
     },
     {
-        "oggSrc": "sound/animal/English/dolphin.ogg",
-        "choiceA": "spider",
-        "choiceB": "panda",
+        "oggSrc": "sound/animal/english/fox.ogg",
+        "choiceA": "lion",
+        "choiceB": "hawk",
+        "choiceC": "fox",
+        "correct": "C",
+        "category": "animal",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/animal/english/dolphin.ogg",
+        "choiceA": "cat",
+        "choiceB": "chimpanzee",
         "choiceC": "dolphin",
         "correct": "C",
         "category": "animal",
         "level": 1
     },
     {
-        "oggSrc": "sound/animal/English/lion.ogg",
-        "choiceA": "fox",
-        "choiceB": "lion",
-        "choiceC": "fish",
-        "correct": "B",
-        "category": "animal",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/animal/English/panda.ogg",
-        "choiceA": "snail",
-        "choiceB": "panda",
-        "choiceC": "fox",
-        "correct": "B",
-        "category": "animal",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/animal/English/pig.ogg",
-        "choiceA": "pig",
-        "choiceB": "elephant",
-        "choiceC": "shell",
-        "correct": "A",
-        "category": "animal",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/animal/English/tiger.ogg",
-        "choiceA": "squirrel",
-        "choiceB": "tiger",
-        "choiceC": "pig",
-        "correct": "B",
-        "category": "animal",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/animal/English/wolf.ogg",
+        "oggSrc": "sound/animal/english/lion.ogg",
         "choiceA": "crab",
-        "choiceB": "wolf",
+        "choiceB": "panda",
+        "choiceC": "lion",
+        "correct": "C",
+        "category": "animal",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/animal/english/panda.ogg",
+        "choiceA": "frog",
+        "choiceB": "chimpanzee",
+        "choiceC": "panda",
+        "correct": "C",
+        "category": "animal",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/animal/english/pig.ogg",
+        "choiceA": "panda",
+        "choiceB": "pig",
+        "choiceC": "snake",
+        "correct": "B",
+        "category": "animal",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/animal/english/tiger.ogg",
+        "choiceA": "hawk",
+        "choiceB": "tiger",
+        "choiceC": "monkey",
+        "correct": "B",
+        "category": "animal",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/animal/english/wolf.ogg",
+        "choiceA": "whale",
+        "choiceB": "ant",
+        "choiceC": "wolf",
+        "correct": "C",
+        "category": "animal",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/animal/english/zebra.ogg",
+        "choiceA": "snail",
+        "choiceB": "zebra",
+        "choiceC": "whale",
+        "correct": "B",
+        "category": "animal",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/animal/english/squirrel.ogg",
+        "choiceA": "dinosaur",
+        "choiceB": "bird",
+        "choiceC": "squirrel",
+        "correct": "C",
+        "category": "animal",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/animal/english/whale.ogg",
+        "choiceA": "whale",
+        "choiceB": "snake",
+        "choiceC": "dragonfly",
+        "correct": "A",
+        "category": "animal",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/animal/english/snail.ogg",
+        "choiceA": "hawk",
+        "choiceB": "snail",
         "choiceC": "pig",
         "correct": "B",
         "category": "animal",
         "level": 1
     },
     {
-        "oggSrc": "sound/animal/English/zebra.ogg",
-        "choiceA": "zebra",
-        "choiceB": "dolphin",
-        "choiceC": "frog",
-        "correct": "A",
-        "category": "animal",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/animal/English/squirrel.ogg",
-        "choiceA": "squirrel",
-        "choiceB": "bat",
-        "choiceC": "shark",
-        "correct": "A",
-        "category": "animal",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/animal/English/whale.ogg",
-        "choiceA": "deer",
-        "choiceB": "whale",
-        "choiceC": "panda",
-        "correct": "B",
-        "category": "animal",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/animal/English/snail.ogg",
-        "choiceA": "shrimp",
-        "choiceB": "owl",
-        "choiceC": "snail",
-        "correct": "C",
-        "category": "animal",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/body/English/head.ogg",
-        "choiceA": "knee",
-        "choiceB": "head",
-        "choiceC": "arm",
-        "correct": "B",
-        "category": "body",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/body/English/shoulder.ogg",
-        "choiceA": "head",
-        "choiceB": "arm",
-        "choiceC": "shoulder",
-        "correct": "C",
-        "category": "body",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/body/English/knee.ogg",
-        "choiceA": "knee",
+        "oggSrc": "sound/body/english/head.ogg",
+        "choiceA": "mouth",
         "choiceB": "foot",
-        "choiceC": "shoulder",
+        "choiceC": "head",
+        "correct": "C",
+        "category": "body",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/body/english/shoulder.ogg",
+        "choiceA": "shoulder",
+        "choiceB": "neck",
+        "choiceC": "ear",
         "correct": "A",
         "category": "body",
         "level": 1
     },
     {
-        "oggSrc": "sound/body/English/toe.ogg",
+        "oggSrc": "sound/body/english/knee.ogg",
         "choiceA": "finger",
-        "choiceB": "toe",
-        "choiceC": "stomach",
+        "choiceB": "knee",
+        "choiceC": "thumb",
         "correct": "B",
         "category": "body",
         "level": 1
     },
     {
-        "oggSrc": "sound/body/English/finger.ogg",
-        "choiceA": "finger",
-        "choiceB": "arm",
-        "choiceC": "palm",
-        "correct": "A",
-        "category": "body",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/body/English/thumb.ogg",
-        "choiceA": "thumb",
+        "oggSrc": "sound/body/english/toe.ogg",
+        "choiceA": "arm",
         "choiceB": "knee",
         "choiceC": "toe",
+        "correct": "C",
+        "category": "body",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/body/english/finger.ogg",
+        "choiceA": "finger",
+        "choiceB": "hand",
+        "choiceC": "head",
         "correct": "A",
         "category": "body",
         "level": 1
     },
     {
-        "oggSrc": "sound/body/English/hand.ogg",
-        "choiceA": "shoulder",
-        "choiceB": "hand",
-        "choiceC": "toe",
-        "correct": "B",
+        "oggSrc": "sound/body/english/thumb.ogg",
+        "choiceA": "ear",
+        "choiceB": "knee",
+        "choiceC": "thumb",
+        "correct": "C",
         "category": "body",
         "level": 1
     },
     {
-        "oggSrc": "sound/body/English/foot.ogg",
+        "oggSrc": "sound/body/english/hand.ogg",
         "choiceA": "thumb",
         "choiceB": "foot",
         "choiceC": "hand",
-        "correct": "B",
-        "category": "body",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/body/English/palm.ogg",
-        "choiceA": "palm",
-        "choiceB": "thumb",
-        "choiceC": "nose",
-        "correct": "A",
-        "category": "body",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/body/English/stomach.ogg",
-        "choiceA": "arm",
-        "choiceB": "stomach",
-        "choiceC": "knee",
-        "correct": "B",
-        "category": "body",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/body/English/nose.ogg",
-        "choiceA": "nose",
-        "choiceB": "hand",
-        "choiceC": "knee",
-        "correct": "A",
-        "category": "body",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/body/English/ear.ogg",
-        "choiceA": "head",
-        "choiceB": "hand",
-        "choiceC": "ear",
         "correct": "C",
         "category": "body",
         "level": 1
     },
     {
-        "oggSrc": "sound/body/English/mouth.ogg",
+        "oggSrc": "sound/body/english/foot.ogg",
+        "choiceA": "hand",
+        "choiceB": "foot",
+        "choiceC": "mouth",
+        "correct": "B",
+        "category": "body",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/body/english/palm.ogg",
+        "choiceA": "foot",
+        "choiceB": "mouth",
+        "choiceC": "palm",
+        "correct": "C",
+        "category": "body",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/body/english/stomach.ogg",
         "choiceA": "neck",
-        "choiceB": "head",
+        "choiceB": "stomach",
+        "choiceC": "mouth",
+        "correct": "B",
+        "category": "body",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/body/english/nose.ogg",
+        "choiceA": "nose",
+        "choiceB": "neck",
+        "choiceC": "head",
+        "correct": "A",
+        "category": "body",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/body/english/ear.ogg",
+        "choiceA": "arm",
+        "choiceB": "ear",
+        "choiceC": "mouth",
+        "correct": "B",
+        "category": "body",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/body/english/mouth.ogg",
+        "choiceA": "toe",
+        "choiceB": "finger",
         "choiceC": "mouth",
         "correct": "C",
         "category": "body",
         "level": 1
     },
     {
-        "oggSrc": "sound/body/English/neck.ogg",
-        "choiceA": "foot",
-        "choiceB": "thumb",
-        "choiceC": "neck",
-        "correct": "C",
+        "oggSrc": "sound/body/english/neck.ogg",
+        "choiceA": "palm",
+        "choiceB": "neck",
+        "choiceC": "foot",
+        "correct": "B",
         "category": "body",
         "level": 1
     },
     {
-        "oggSrc": "sound/body/English/arm.ogg",
+        "oggSrc": "sound/body/english/arm.ogg",
         "choiceA": "arm",
-        "choiceB": "shoulder",
-        "choiceC": "stomach",
+        "choiceB": "thumb",
+        "choiceC": "finger",
         "correct": "A",
         "category": "body",
         "level": 1
     },
     {
-        "oggSrc": "sound/color/English/red.ogg",
-        "choiceA": "red",
-        "choiceB": "brown",
-        "choiceC": "green",
-        "correct": "A",
-        "category": "color",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/color/English/brown.ogg",
-        "choiceA": "black",
-        "choiceB": "yellow",
-        "choiceC": "brown",
-        "correct": "C",
-        "category": "color",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/color/English/black.ogg",
-        "choiceA": "black",
+        "oggSrc": "sound/color/english/red.ogg",
+        "choiceA": "yellow",
         "choiceB": "red",
-        "choiceC": "yellow",
-        "correct": "A",
-        "category": "color",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/color/English/white.ogg",
-        "choiceA": "yellow",
-        "choiceB": "brown",
-        "choiceC": "white",
-        "correct": "C",
-        "category": "color",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/color/English/yellow.ogg",
-        "choiceA": "yellow",
-        "choiceB": "orange",
-        "choiceC": "red",
-        "correct": "A",
-        "category": "color",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/color/English/blue.ogg",
-        "choiceA": "yellow",
-        "choiceB": "blue",
-        "choiceC": "green",
+        "choiceC": "brown",
         "correct": "B",
         "category": "color",
         "level": 1
     },
     {
-        "oggSrc": "sound/color/English/orange.ogg",
-        "choiceA": "orange",
+        "oggSrc": "sound/color/english/brown.ogg",
+        "choiceA": "black",
         "choiceB": "brown",
         "choiceC": "yellow",
+        "correct": "B",
+        "category": "color",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/color/english/black.ogg",
+        "choiceA": "black",
+        "choiceB": "white",
+        "choiceC": "brown",
         "correct": "A",
         "category": "color",
         "level": 1
     },
     {
-        "oggSrc": "sound/color/English/green.ogg",
+        "oggSrc": "sound/color/english/white.ogg",
         "choiceA": "white",
-        "choiceB": "blue",
-        "choiceC": "green",
+        "choiceB": "red",
+        "choiceC": "brown",
+        "correct": "A",
+        "category": "color",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/color/english/yellow.ogg",
+        "choiceA": "blue",
+        "choiceB": "red",
+        "choiceC": "yellow",
         "correct": "C",
         "category": "color",
         "level": 1
     },
     {
-        "oggSrc": "sound/color/English/violet.ogg",
-        "choiceA": "violet",
+        "oggSrc": "sound/color/english/blue.ogg",
+        "choiceA": "green",
         "choiceB": "black",
-        "choiceC": "orange",
-        "correct": "A",
+        "choiceC": "blue",
+        "correct": "C",
         "category": "color",
         "level": 1
     },
     {
-        "oggSrc": "sound/direction/English/up.ogg",
-        "choiceA": "up",
-        "choiceB": "down",
-        "choiceC": "south",
-        "correct": "A",
-        "category": "direction",
+        "oggSrc": "sound/color/english/orange.ogg",
+        "choiceA": "violet",
+        "choiceB": "orange",
+        "choiceC": "red",
+        "correct": "B",
+        "category": "color",
         "level": 1
     },
     {
-        "oggSrc": "sound/direction/English/down.ogg",
-        "choiceA": "down",
-        "choiceB": "south",
+        "oggSrc": "sound/color/english/green.ogg",
+        "choiceA": "white",
+        "choiceB": "green",
+        "choiceC": "brown",
+        "correct": "B",
+        "category": "color",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/color/english/violet.ogg",
+        "choiceA": "white",
+        "choiceB": "black",
+        "choiceC": "violet",
+        "correct": "C",
+        "category": "color",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/direction/english/up.ogg",
+        "choiceA": "south",
+        "choiceB": "here",
         "choiceC": "up",
-        "correct": "A",
+        "correct": "C",
         "category": "direction",
         "level": 1
     },
     {
-        "oggSrc": "sound/direction/English/inside.ogg",
-        "choiceA": "east",
+        "oggSrc": "sound/direction/english/down.ogg",
+        "choiceA": "up",
+        "choiceB": "inside",
+        "choiceC": "down",
+        "correct": "C",
+        "category": "direction",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/direction/english/inside.ogg",
+        "choiceA": "there",
         "choiceB": "north",
         "choiceC": "inside",
         "correct": "C",
@@ -720,629 +720,395 @@ var questionbank=[
         "level": 1
     },
     {
-        "oggSrc": "sound/direction/English/outside.ogg",
-        "choiceA": "outside",
-        "choiceB": "down",
-        "choiceC": "north",
-        "correct": "A",
-        "category": "direction",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/direction/English/east.ogg",
-        "choiceA": "south",
-        "choiceB": "east",
-        "choiceC": "outside",
-        "correct": "B",
-        "category": "direction",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/direction/English/west.ogg",
-        "choiceA": "north",
+        "oggSrc": "sound/direction/english/outside.ogg",
+        "choiceA": "east",
         "choiceB": "outside",
-        "choiceC": "west",
-        "correct": "C",
-        "category": "direction",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/direction/English/north.ogg",
-        "choiceA": "north",
-        "choiceB": "south",
-        "choiceC": "up",
-        "correct": "A",
-        "category": "direction",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/direction/English/south.ogg",
-        "choiceA": "here",
-        "choiceB": "south",
         "choiceC": "there",
         "correct": "B",
         "category": "direction",
         "level": 1
     },
     {
-        "oggSrc": "sound/direction/English/here.ogg",
-        "choiceA": "here",
+        "oggSrc": "sound/direction/english/east.ogg",
+        "choiceA": "west",
+        "choiceB": "outside",
+        "choiceC": "east",
+        "correct": "C",
+        "category": "direction",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/direction/english/west.ogg",
+        "choiceA": "west",
+        "choiceB": "east",
+        "choiceC": "north",
+        "correct": "A",
+        "category": "direction",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/direction/english/north.ogg",
+        "choiceA": "there",
         "choiceB": "down",
+        "choiceC": "north",
+        "correct": "C",
+        "category": "direction",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/direction/english/south.ogg",
+        "choiceA": "south",
+        "choiceB": "down",
+        "choiceC": "here",
+        "correct": "A",
+        "category": "direction",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/direction/english/here.ogg",
+        "choiceA": "up",
+        "choiceB": "here",
+        "choiceC": "inside",
+        "correct": "B",
+        "category": "direction",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/direction/english/there.ogg",
+        "choiceA": "there",
+        "choiceB": "south",
         "choiceC": "up",
         "correct": "A",
         "category": "direction",
         "level": 1
     },
     {
-        "oggSrc": "sound/direction/English/there.ogg",
-        "choiceA": "up",
-        "choiceB": "there",
-        "choiceC": "east",
+        "oggSrc": "sound/emotion/english/happy.ogg",
+        "choiceA": "angry",
+        "choiceB": "happy",
+        "choiceC": "sad",
         "correct": "B",
-        "category": "direction",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/emotion/English/happy.ogg",
-        "choiceA": "excited",
-        "choiceB": "angry",
-        "choiceC": "happy",
-        "correct": "C",
         "category": "emotion",
         "level": 1
     },
     {
-        "oggSrc": "sound/emotion/English/sad.ogg",
-        "choiceA": "happy",
-        "choiceB": "tired",
+        "oggSrc": "sound/emotion/english/sad.ogg",
+        "choiceA": "tired",
+        "choiceB": "happy",
         "choiceC": "sad",
         "correct": "C",
         "category": "emotion",
         "level": 1
     },
     {
-        "oggSrc": "sound/emotion/English/tired.ogg",
-        "choiceA": "sad",
-        "choiceB": "angry",
+        "oggSrc": "sound/emotion/english/tired.ogg",
+        "choiceA": "puzzled",
+        "choiceB": "happy",
         "choiceC": "tired",
         "correct": "C",
         "category": "emotion",
         "level": 1
     },
     {
-        "oggSrc": "sound/emotion/English/puzzled.ogg",
-        "choiceA": "puzzled",
+        "oggSrc": "sound/emotion/english/puzzled.ogg",
+        "choiceA": "excited",
         "choiceB": "sad",
-        "choiceC": "happy",
-        "correct": "A",
+        "choiceC": "puzzled",
+        "correct": "C",
         "category": "emotion",
         "level": 1
     },
     {
-        "oggSrc": "sound/emotion/English/angry.ogg",
-        "choiceA": "tired",
-        "choiceB": "sad",
+        "oggSrc": "sound/emotion/english/angry.ogg",
+        "choiceA": "crying",
+        "choiceB": "tired",
         "choiceC": "angry",
         "correct": "C",
         "category": "emotion",
         "level": 1
     },
     {
-        "oggSrc": "sound/emotion/English/crying.ogg",
-        "choiceA": "happy",
-        "choiceB": "sad",
-        "choiceC": "crying",
-        "correct": "C",
+        "oggSrc": "sound/emotion/english/crying.ogg",
+        "choiceA": "puzzled",
+        "choiceB": "crying",
+        "choiceC": "excited",
+        "correct": "B",
         "category": "emotion",
         "level": 1
     },
     {
-        "oggSrc": "sound/emotion/English/excited.ogg",
-        "choiceA": "angry",
+        "oggSrc": "sound/emotion/english/excited.ogg",
+        "choiceA": "sad",
         "choiceB": "excited",
-        "choiceC": "crying",
+        "choiceC": "puzzled",
         "correct": "B",
         "category": "emotion",
         "level": 1
     },
     {
-        "oggSrc": "sound/food/English/biscuit.ogg",
-        "choiceA": "ginger",
-        "choiceB": "cake",
-        "choiceC": "biscuit",
+        "oggSrc": "sound/food/english/biscuit.ogg",
+        "choiceA": "biscuit",
+        "choiceB": "cheese",
+        "choiceC": "cucumber",
+        "correct": "A",
+        "category": "food",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/food/english/cookie.ogg",
+        "choiceA": "curry",
+        "choiceB": "rice",
+        "choiceC": "cookie",
         "correct": "C",
         "category": "food",
         "level": 1
     },
     {
-        "oggSrc": "sound/food/English/cookie.ogg",
-        "choiceA": "chocolate",
-        "choiceB": "cookie",
-        "choiceC": "olive",
+        "oggSrc": "sound/food/english/bread.ogg",
+        "choiceA": "cookie",
+        "choiceB": "bread",
+        "choiceC": "asparagus",
         "correct": "B",
         "category": "food",
         "level": 1
     },
     {
-        "oggSrc": "sound/food/English/bread.ogg",
-        "choiceA": "snacks",
-        "choiceB": "egg",
-        "choiceC": "bread",
-        "correct": "C",
-        "category": "food",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/food/English/carrot.ogg",
+        "oggSrc": "sound/food/english/carrot.ogg",
         "choiceA": "chicken wing",
-        "choiceB": "pasta",
+        "choiceB": "meat ball",
         "choiceC": "carrot",
         "correct": "C",
         "category": "food",
         "level": 1
     },
     {
-        "oggSrc": "sound/food/English/tofu.ogg",
-        "choiceA": "milk",
-        "choiceB": "broccoli",
-        "choiceC": "tofu",
-        "correct": "C",
-        "category": "food",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/food/English/yohurt.ogg",
-        "choiceA": "eggplant",
-        "choiceB": "lady finger",
-        "choiceC": "yohurt",
-        "correct": "C",
-        "category": "food",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/food/English/candy.ogg",
-        "choiceA": "candy",
-        "choiceB": "salt",
-        "choiceC": "pasta",
-        "correct": "A",
-        "category": "food",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/food/English/cheese.ogg",
-        "choiceA": "drumstick",
-        "choiceB": "cheese",
-        "choiceC": "nut",
+        "oggSrc": "sound/food/english/tofu.ogg",
+        "choiceA": "chicken wing",
+        "choiceB": "tofu",
+        "choiceC": "wrap",
         "correct": "B",
         "category": "food",
         "level": 1
     },
     {
-        "oggSrc": "sound/food/English/soup.ogg",
-        "choiceA": "onion",
-        "choiceB": "meat ball",
+        "oggSrc": "sound/food/english/yohurt.ogg",
+        "choiceA": "dim sum",
+        "choiceB": "yohurt",
+        "choiceC": "cookie",
+        "correct": "B",
+        "category": "food",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/food/english/candy.ogg",
+        "choiceA": "wrap",
+        "choiceB": "candy",
+        "choiceC": "spicy",
+        "correct": "B",
+        "category": "food",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/food/english/cheese.ogg",
+        "choiceA": "cheese",
+        "choiceB": "curry",
+        "choiceC": "pancake",
+        "correct": "A",
+        "category": "food",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/food/english/soup.ogg",
+        "choiceA": "salad",
+        "choiceB": "sugar",
         "choiceC": "soup",
         "correct": "C",
         "category": "food",
         "level": 1
     },
     {
-        "oggSrc": "sound/food/English/curry.ogg",
-        "choiceA": "ginger",
-        "choiceB": "curry",
-        "choiceC": "sugar",
-        "correct": "B",
-        "category": "food",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/food/English/spicy.ogg",
-        "choiceA": "wrap",
-        "choiceB": "candy",
-        "choiceC": "spicy",
-        "correct": "C",
-        "category": "food",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/food/English/sauce.ogg",
-        "choiceA": "tofu",
-        "choiceB": "carrot",
-        "choiceC": "sauce",
-        "correct": "C",
-        "category": "food",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/food/English/sugar.ogg",
-        "choiceA": "tea",
-        "choiceB": "sugar",
-        "choiceC": "salt",
-        "correct": "B",
-        "category": "food",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/food/English/salt.ogg",
-        "choiceA": "jelly",
-        "choiceB": "brownies",
-        "choiceC": "salt",
-        "correct": "C",
-        "category": "food",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/food/English/pepper.ogg",
-        "choiceA": "pudding",
-        "choiceB": "carrot",
-        "choiceC": "pepper",
-        "correct": "C",
-        "category": "food",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/food/English/rice.ogg",
-        "choiceA": "yohurt",
-        "choiceB": "rice",
-        "choiceC": "sushi",
-        "correct": "B",
-        "category": "food",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/food/English/noodle.ogg",
-        "choiceA": "noodle",
-        "choiceB": "nut",
-        "choiceC": "pancake",
-        "correct": "A",
-        "category": "food",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/food/English/congee.ogg",
-        "choiceA": "congee",
-        "choiceB": "cucumber",
-        "choiceC": "wrap",
-        "correct": "A",
-        "category": "food",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/food/English/ginger.ogg",
-        "choiceA": "ginger",
-        "choiceB": "salad",
-        "choiceC": "congee",
-        "correct": "A",
-        "category": "food",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/food/English/onion.ogg",
-        "choiceA": "spring onion",
-        "choiceB": "onion",
-        "choiceC": "candy",
-        "correct": "B",
-        "category": "food",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/food/English/spring_onion.ogg",
-        "choiceA": "spring onion",
-        "choiceB": "brownies",
-        "choiceC": "candy",
-        "correct": "A",
-        "category": "food",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/food/English/cake.ogg",
-        "choiceA": "cake",
-        "choiceB": "cookie",
-        "choiceC": "wrap",
-        "correct": "A",
-        "category": "food",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/food/English/chocolate.ogg",
-        "choiceA": "bun",
-        "choiceB": "chocolate",
-        "choiceC": "pudding",
-        "correct": "B",
-        "category": "food",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/food/English/sausage.ogg",
-        "choiceA": "sausage",
-        "choiceB": "pepper",
-        "choiceC": "candy",
-        "correct": "A",
-        "category": "food",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/food/English/egg.ogg",
-        "choiceA": "sushi",
-        "choiceB": "egg",
-        "choiceC": "eggplant",
-        "correct": "B",
-        "category": "food",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/food/English/coffee.ogg",
-        "choiceA": "coffee",
-        "choiceB": "cheese",
-        "choiceC": "hamburger",
-        "correct": "A",
-        "category": "food",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/food/English/tea.ogg",
-        "choiceA": "tea",
-        "choiceB": "pepper",
-        "choiceC": "jelly",
-        "correct": "A",
-        "category": "food",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/food/English/milk.ogg",
-        "choiceA": "drumstick",
+        "oggSrc": "sound/food/english/curry.ogg",
+        "choiceA": "curry",
         "choiceB": "spicy",
-        "choiceC": "milk",
-        "correct": "C",
+        "choiceC": "onion",
+        "correct": "A",
         "category": "food",
         "level": 1
     },
     {
-        "oggSrc": "sound/food/English/orange_juice.ogg",
-        "choiceA": "hotpot",
-        "choiceB": "orange juice",
-        "choiceC": "dim sum",
+        "oggSrc": "sound/food/english/spicy.ogg",
+        "choiceA": "brownies",
+        "choiceB": "spicy",
+        "choiceC": "biscuit",
         "correct": "B",
         "category": "food",
         "level": 1
     },
     {
-        "oggSrc": "sound/food/English/eggplant.ogg",
-        "choiceA": "eggplant",
-        "choiceB": "orange juice",
-        "choiceC": "nugget",
-        "correct": "A",
-        "category": "food",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/food/English/jelly.ogg",
-        "choiceA": "jelly",
-        "choiceB": "soup",
-        "choiceC": "pancake",
-        "correct": "A",
-        "category": "food",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/food/English/pudding.ogg",
-        "choiceA": "pudding",
-        "choiceB": "yohurt",
-        "choiceC": "salt",
-        "correct": "A",
-        "category": "food",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/food/English/nut.ogg",
-        "choiceA": "jelly",
-        "choiceB": "salt",
-        "choiceC": "nut",
-        "correct": "C",
-        "category": "food",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/food/English/potato.ogg",
-        "choiceA": "fries",
-        "choiceB": "potato",
-        "choiceC": "olive",
-        "correct": "B",
-        "category": "food",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/food/English/hamburger.ogg",
+        "oggSrc": "sound/food/english/sauce.ogg",
         "choiceA": "hamburger",
-        "choiceB": "coffee",
-        "choiceC": "bun",
-        "correct": "A",
-        "category": "food",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/food/English/pizza.ogg",
-        "choiceA": "drumstick",
-        "choiceB": "cheese",
-        "choiceC": "pizza",
-        "correct": "C",
-        "category": "food",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/food/English/pasta.ogg",
-        "choiceA": "bread",
-        "choiceB": "dim sum",
-        "choiceC": "pasta",
-        "correct": "C",
-        "category": "food",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/food/English/sushi.ogg",
-        "choiceA": "sushi",
-        "choiceB": "rice",
-        "choiceC": "pizza",
-        "correct": "A",
-        "category": "food",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/food/English/hotpot.ogg",
-        "choiceA": "hotpot",
-        "choiceB": "rice",
-        "choiceC": "pepper",
-        "correct": "A",
-        "category": "food",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/food/English/dim_sum.ogg",
-        "choiceA": "salad",
-        "choiceB": "dim sum",
-        "choiceC": "hamburger",
-        "correct": "B",
-        "category": "food",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/food/English/meat_ball.ogg",
-        "choiceA": "snacks",
-        "choiceB": "soup",
-        "choiceC": "meat ball",
-        "correct": "C",
-        "category": "food",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/food/English/lady_finger.ogg",
-        "choiceA": "milk",
-        "choiceB": "yohurt",
-        "choiceC": "lady finger",
-        "correct": "C",
-        "category": "food",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/food/English/yam.ogg",
-        "choiceA": "cucumber",
-        "choiceB": "yam",
-        "choiceC": "dim sum",
-        "correct": "B",
-        "category": "food",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/food/English/steak.ogg",
-        "choiceA": "carrot",
-        "choiceB": "ginger",
-        "choiceC": "steak",
-        "correct": "C",
-        "category": "food",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/food/English/pancake.ogg",
-        "choiceA": "pancake",
         "choiceB": "sauce",
-        "choiceC": "cheese",
+        "choiceC": "congee",
+        "correct": "B",
+        "category": "food",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/food/english/sugar.ogg",
+        "choiceA": "sugar",
+        "choiceB": "bun",
+        "choiceC": "fries",
         "correct": "A",
         "category": "food",
         "level": 1
     },
     {
-        "oggSrc": "sound/food/English/snacks.ogg",
-        "choiceA": "snacks",
-        "choiceB": "nut",
+        "oggSrc": "sound/food/english/salt.ogg",
+        "choiceA": "sausage",
+        "choiceB": "hotpot",
+        "choiceC": "salt",
+        "correct": "C",
+        "category": "food",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/food/english/pepper.ogg",
+        "choiceA": "pepper",
+        "choiceB": "cookie",
+        "choiceC": "drumstick",
+        "correct": "A",
+        "category": "food",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/food/english/rice.ogg",
+        "choiceA": "brownies",
+        "choiceB": "noodle",
+        "choiceC": "rice",
+        "correct": "C",
+        "category": "food",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/food/english/noodle.ogg",
+        "choiceA": "spicy",
+        "choiceB": "onion",
+        "choiceC": "noodle",
+        "correct": "C",
+        "category": "food",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/food/english/congee.ogg",
+        "choiceA": "chocolate",
+        "choiceB": "onion",
+        "choiceC": "congee",
+        "correct": "C",
+        "category": "food",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/food/english/ginger.ogg",
+        "choiceA": "orange juice",
+        "choiceB": "brownies",
+        "choiceC": "ginger",
+        "correct": "C",
+        "category": "food",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/food/english/onion.ogg",
+        "choiceA": "salad",
+        "choiceB": "onion",
+        "choiceC": "pizza",
+        "correct": "B",
+        "category": "food",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/food/english/spring_onion.ogg",
+        "choiceA": "wrap",
+        "choiceB": "sugar",
+        "choiceC": "spring onion",
+        "correct": "C",
+        "category": "food",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/food/english/cake.ogg",
+        "choiceA": "cake",
+        "choiceB": "sauce",
         "choiceC": "orange juice",
         "correct": "A",
         "category": "food",
         "level": 1
     },
     {
-        "oggSrc": "sound/food/English/brownies.ogg",
-        "choiceA": "brownies",
-        "choiceB": "nugget",
-        "choiceC": "tofu",
-        "correct": "A",
-        "category": "food",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/food/English/salad.ogg",
-        "choiceA": "salad",
-        "choiceB": "asparagus",
-        "choiceC": "yohurt",
-        "correct": "A",
-        "category": "food",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/food/English/wrap.ogg",
-        "choiceA": "wrap",
-        "choiceB": "pepper",
-        "choiceC": "spring onion",
-        "correct": "A",
-        "category": "food",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/food/English/olive.ogg",
-        "choiceA": "egg",
-        "choiceB": "olive",
-        "choiceC": "yohurt",
-        "correct": "B",
-        "category": "food",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/food/English/chicken_wing.ogg",
-        "choiceA": "carrot",
-        "choiceB": "chicken wing",
-        "choiceC": "onion",
-        "correct": "B",
-        "category": "food",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/food/English/drumstick.ogg",
-        "choiceA": "ginger",
-        "choiceB": "drumstick",
-        "choiceC": "spring onion",
-        "correct": "B",
-        "category": "food",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/food/English/fries.ogg",
-        "choiceA": "yam",
-        "choiceB": "fries",
-        "choiceC": "candy",
-        "correct": "B",
-        "category": "food",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/food/English/asparagus.ogg",
-        "choiceA": "nugget",
-        "choiceB": "asparagus",
-        "choiceC": "bun",
-        "correct": "B",
-        "category": "food",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/food/English/nugget.ogg",
-        "choiceA": "salt",
-        "choiceB": "pizza",
-        "choiceC": "nugget",
+        "oggSrc": "sound/food/english/chocolate.ogg",
+        "choiceA": "candy",
+        "choiceB": "yohurt",
+        "choiceC": "chocolate",
         "correct": "C",
         "category": "food",
         "level": 1
     },
     {
-        "oggSrc": "sound/food/English/broccoli.ogg",
-        "choiceA": "broccoli",
+        "oggSrc": "sound/food/english/sausage.ogg",
+        "choiceA": "chicken wing",
+        "choiceB": "soup",
+        "choiceC": "sausage",
+        "correct": "C",
+        "category": "food",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/food/english/egg.ogg",
+        "choiceA": "asparagus",
+        "choiceB": "egg",
+        "choiceC": "fries",
+        "correct": "B",
+        "category": "food",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/food/english/coffee.ogg",
+        "choiceA": "candy",
+        "choiceB": "pancake",
+        "choiceC": "coffee",
+        "correct": "C",
+        "category": "food",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/food/english/tea.ogg",
+        "choiceA": "steak",
+        "choiceB": "biscuit",
+        "choiceC": "tea",
+        "correct": "C",
+        "category": "food",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/food/english/milk.ogg",
+        "choiceA": "milk",
+        "choiceB": "coffee",
+        "choiceC": "wrap",
+        "correct": "A",
+        "category": "food",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/food/english/orange_juice.ogg",
+        "choiceA": "congee",
+        "choiceB": "coffee",
+        "choiceC": "orange juice",
+        "correct": "C",
+        "category": "food",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/food/english/eggplant.ogg",
+        "choiceA": "eggplant",
         "choiceB": "sausage",
         "choiceC": "asparagus",
         "correct": "A",
@@ -1350,611 +1116,593 @@ var questionbank=[
         "level": 1
     },
     {
-        "oggSrc": "sound/food/English/bun.ogg",
-        "choiceA": "tofu",
+        "oggSrc": "sound/food/english/jelly.ogg",
+        "choiceA": "jelly",
+        "choiceB": "olive",
+        "choiceC": "pepper",
+        "correct": "A",
+        "category": "food",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/food/english/pudding.ogg",
+        "choiceA": "pudding",
+        "choiceB": "cookie",
+        "choiceC": "lady finger",
+        "correct": "A",
+        "category": "food",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/food/english/nut.ogg",
+        "choiceA": "potato",
+        "choiceB": "nut",
+        "choiceC": "nugget",
+        "correct": "B",
+        "category": "food",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/food/english/potato.ogg",
+        "choiceA": "potato",
+        "choiceB": "yam",
+        "choiceC": "cookie",
+        "correct": "A",
+        "category": "food",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/food/english/hamburger.ogg",
+        "choiceA": "snacks",
+        "choiceB": "hamburger",
+        "choiceC": "bun",
+        "correct": "B",
+        "category": "food",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/food/english/pizza.ogg",
+        "choiceA": "pizza",
+        "choiceB": "cheese",
+        "choiceC": "candy",
+        "correct": "A",
+        "category": "food",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/food/english/pasta.ogg",
+        "choiceA": "pasta",
+        "choiceB": "candy",
+        "choiceC": "congee",
+        "correct": "A",
+        "category": "food",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/food/english/sushi.ogg",
+        "choiceA": "coffee",
+        "choiceB": "cucumber",
+        "choiceC": "sushi",
+        "correct": "C",
+        "category": "food",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/food/english/hotpot.ogg",
+        "choiceA": "hotpot",
+        "choiceB": "soup",
+        "choiceC": "sausage",
+        "correct": "A",
+        "category": "food",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/food/english/dim_sum.ogg",
+        "choiceA": "dim sum",
+        "choiceB": "fries",
+        "choiceC": "sausage",
+        "correct": "A",
+        "category": "food",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/food/english/meat_ball.ogg",
+        "choiceA": "noodle",
+        "choiceB": "biscuit",
+        "choiceC": "meat ball",
+        "correct": "C",
+        "category": "food",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/food/english/lady_finger.ogg",
+        "choiceA": "yam",
+        "choiceB": "lady finger",
+        "choiceC": "eggplant",
+        "correct": "B",
+        "category": "food",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/food/english/yam.ogg",
+        "choiceA": "soup",
+        "choiceB": "yam",
+        "choiceC": "sushi",
+        "correct": "B",
+        "category": "food",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/food/english/steak.ogg",
+        "choiceA": "congee",
+        "choiceB": "sushi",
+        "choiceC": "steak",
+        "correct": "C",
+        "category": "food",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/food/english/pancake.ogg",
+        "choiceA": "pancake",
+        "choiceB": "biscuit",
+        "choiceC": "curry",
+        "correct": "A",
+        "category": "food",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/food/english/snacks.ogg",
+        "choiceA": "drumstick",
+        "choiceB": "lady finger",
+        "choiceC": "snacks",
+        "correct": "C",
+        "category": "food",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/food/english/brownies.ogg",
+        "choiceA": "sausage",
+        "choiceB": "brownies",
+        "choiceC": "congee",
+        "correct": "B",
+        "category": "food",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/food/english/salad.ogg",
+        "choiceA": "yam",
+        "choiceB": "salad",
+        "choiceC": "wrap",
+        "correct": "B",
+        "category": "food",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/food/english/wrap.ogg",
+        "choiceA": "wrap",
+        "choiceB": "eggplant",
+        "choiceC": "yohurt",
+        "correct": "A",
+        "category": "food",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/food/english/olive.ogg",
+        "choiceA": "olive",
+        "choiceB": "spicy",
+        "choiceC": "fries",
+        "correct": "A",
+        "category": "food",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/food/english/chicken_wing.ogg",
+        "choiceA": "egg",
+        "choiceB": "chicken wing",
+        "choiceC": "cheese",
+        "correct": "B",
+        "category": "food",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/food/english/drumstick.ogg",
+        "choiceA": "wrap",
+        "choiceB": "potato",
+        "choiceC": "drumstick",
+        "correct": "C",
+        "category": "food",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/food/english/fries.ogg",
+        "choiceA": "coffee",
+        "choiceB": "fries",
+        "choiceC": "spicy",
+        "correct": "B",
+        "category": "food",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/food/english/asparagus.ogg",
+        "choiceA": "yam",
+        "choiceB": "pepper",
+        "choiceC": "asparagus",
+        "correct": "C",
+        "category": "food",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/food/english/nugget.ogg",
+        "choiceA": "nugget",
+        "choiceB": "fries",
+        "choiceC": "milk",
+        "correct": "A",
+        "category": "food",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/food/english/broccoli.ogg",
+        "choiceA": "broccoli",
+        "choiceB": "spring onion",
+        "choiceC": "nut",
+        "correct": "A",
+        "category": "food",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/food/english/bun.ogg",
+        "choiceA": "spring onion",
         "choiceB": "bun",
+        "choiceC": "pizza",
+        "correct": "B",
+        "category": "food",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/food/english/cucumber.ogg",
+        "choiceA": "jelly",
+        "choiceB": "rice",
         "choiceC": "cucumber",
-        "correct": "B",
+        "correct": "C",
         "category": "food",
         "level": 1
     },
     {
-        "oggSrc": "sound/food/English/cucumber.ogg",
-        "choiceA": "cucumber",
-        "choiceB": "snacks",
-        "choiceC": "soup",
-        "correct": "A",
-        "category": "food",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/fruit/English/banana.ogg",
-        "choiceA": "blackcurrant",
-        "choiceB": "banana",
-        "choiceC": "watermelon",
-        "correct": "B",
-        "category": "fruit",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/fruit/English/apple.ogg",
-        "choiceA": "pear",
-        "choiceB": "lemon",
-        "choiceC": "apple",
-        "correct": "C",
-        "category": "fruit",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/fruit/English/orange.ogg",
-        "choiceA": "orange",
-        "choiceB": "starfruit",
-        "choiceC": "coconut",
-        "correct": "A",
-        "category": "fruit",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/fruit/English/kiwi.ogg",
-        "choiceA": "kiwi",
-        "choiceB": "banana",
-        "choiceC": "dragonfruit",
-        "correct": "A",
-        "category": "fruit",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/fruit/English/peach.ogg",
-        "choiceA": "cherry",
-        "choiceB": "pear",
-        "choiceC": "peach",
-        "correct": "C",
-        "category": "fruit",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/fruit/English/cherry.ogg",
-        "choiceA": "cherry",
-        "choiceB": "coconut",
-        "choiceC": "dragonfruit",
-        "correct": "A",
-        "category": "fruit",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/fruit/English/pineapple.ogg",
+        "oggSrc": "sound/fruit/english/banana.ogg",
         "choiceA": "pineapple",
-        "choiceB": "strawberry",
-        "choiceC": "dragonfruit",
-        "correct": "A",
-        "category": "fruit",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/fruit/English/strawberry.ogg",
-        "choiceA": "lemon",
-        "choiceB": "pineapple",
-        "choiceC": "strawberry",
-        "correct": "C",
-        "category": "fruit",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/fruit/English/grape.ogg",
-        "choiceA": "grape",
-        "choiceB": "dragonfruit",
-        "choiceC": "pear",
-        "correct": "A",
-        "category": "fruit",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/fruit/English/watermelon.ogg",
-        "choiceA": "watermelon",
-        "choiceB": "blackcurrant",
-        "choiceC": "strawberry",
-        "correct": "A",
-        "category": "fruit",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/fruit/English/pear.ogg",
-        "choiceA": "peach",
-        "choiceB": "lemon",
-        "choiceC": "pear",
-        "correct": "C",
-        "category": "fruit",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/fruit/English/plum.ogg",
-        "choiceA": "papaya",
-        "choiceB": "plum",
-        "choiceC": "coconut",
+        "choiceB": "banana",
+        "choiceC": "blackcurrant",
         "correct": "B",
         "category": "fruit",
         "level": 1
     },
     {
-        "oggSrc": "sound/fruit/English/coconut.ogg",
-        "choiceA": "peach",
-        "choiceB": "watermelon",
-        "choiceC": "coconut",
-        "correct": "C",
+        "oggSrc": "sound/fruit/english/apple.ogg",
+        "choiceA": "grape",
+        "choiceB": "apple",
+        "choiceC": "starfruit",
+        "correct": "B",
         "category": "fruit",
         "level": 1
     },
     {
-        "oggSrc": "sound/fruit/English/lemon.ogg",
+        "oggSrc": "sound/fruit/english/orange.ogg",
         "choiceA": "strawberry",
-        "choiceB": "lemon",
+        "choiceB": "orange",
         "choiceC": "peach",
         "correct": "B",
         "category": "fruit",
         "level": 1
     },
     {
-        "oggSrc": "sound/fruit/English/mango.ogg",
-        "choiceA": "kiwi",
-        "choiceB": "peach",
-        "choiceC": "mango",
+        "oggSrc": "sound/fruit/english/kiwi.ogg",
+        "choiceA": "lemon",
+        "choiceB": "kiwi",
+        "choiceC": "pear",
+        "correct": "B",
+        "category": "fruit",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/fruit/english/peach.ogg",
+        "choiceA": "papaya",
+        "choiceB": "coconut",
+        "choiceC": "peach",
         "correct": "C",
         "category": "fruit",
         "level": 1
     },
     {
-        "oggSrc": "sound/fruit/English/avocado.ogg",
+        "oggSrc": "sound/fruit/english/cherry.ogg",
+        "choiceA": "cherry",
+        "choiceB": "grape",
+        "choiceC": "banana",
+        "correct": "A",
+        "category": "fruit",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/fruit/english/pineapple.ogg",
+        "choiceA": "pineapple",
+        "choiceB": "cherry",
+        "choiceC": "mango",
+        "correct": "A",
+        "category": "fruit",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/fruit/english/strawberry.ogg",
+        "choiceA": "banana",
+        "choiceB": "kiwi",
+        "choiceC": "strawberry",
+        "correct": "C",
+        "category": "fruit",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/fruit/english/grape.ogg",
         "choiceA": "coconut",
         "choiceB": "grape",
-        "choiceC": "avocado",
-        "correct": "C",
-        "category": "fruit",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/fruit/English/blackcurrant.ogg",
-        "choiceA": "blackcurrant",
-        "choiceB": "mango",
-        "choiceC": "kiwi",
-        "correct": "A",
-        "category": "fruit",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/fruit/English/starfruit.ogg",
-        "choiceA": "avocado",
-        "choiceB": "starfruit",
-        "choiceC": "orange",
+        "choiceC": "mango",
         "correct": "B",
         "category": "fruit",
         "level": 1
     },
     {
-        "oggSrc": "sound/fruit/English/papaya.ogg",
-        "choiceA": "coconut",
-        "choiceB": "papaya",
+        "oggSrc": "sound/fruit/english/watermelon.ogg",
+        "choiceA": "pear",
+        "choiceB": "strawberry",
         "choiceC": "watermelon",
+        "correct": "C",
+        "category": "fruit",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/fruit/english/pear.ogg",
+        "choiceA": "orange",
+        "choiceB": "lemon",
+        "choiceC": "pear",
+        "correct": "C",
+        "category": "fruit",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/fruit/english/plum.ogg",
+        "choiceA": "strawberry",
+        "choiceB": "plum",
+        "choiceC": "mango",
         "correct": "B",
         "category": "fruit",
         "level": 1
     },
     {
-        "oggSrc": "sound/fruit/English/dragonfruit.ogg",
+        "oggSrc": "sound/fruit/english/coconut.ogg",
         "choiceA": "plum",
-        "choiceB": "dragonfruit",
-        "choiceC": "peach",
+        "choiceB": "banana",
+        "choiceC": "coconut",
+        "correct": "C",
+        "category": "fruit",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/fruit/english/lemon.ogg",
+        "choiceA": "peach",
+        "choiceB": "lemon",
+        "choiceC": "blackcurrant",
         "correct": "B",
         "category": "fruit",
         "level": 1
     },
     {
-        "oggSrc": "sound/home/English/towel.ogg",
-        "choiceA": "towel",
-        "choiceB": "clock",
-        "choiceC": "cupboard",
+        "oggSrc": "sound/fruit/english/mango.ogg",
+        "choiceA": "mango",
+        "choiceB": "peach",
+        "choiceC": "orange",
         "correct": "A",
-        "category": "home",
+        "category": "fruit",
         "level": 1
     },
     {
-        "oggSrc": "sound/home/English/tissue.ogg",
-        "choiceA": "air-conditioner",
-        "choiceB": "fork",
-        "choiceC": "tissue",
+        "oggSrc": "sound/fruit/english/avocado.ogg",
+        "choiceA": "cherry",
+        "choiceB": "avocado",
+        "choiceC": "pear",
+        "correct": "B",
+        "category": "fruit",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/fruit/english/blackcurrant.ogg",
+        "choiceA": "blackcurrant",
+        "choiceB": "peach",
+        "choiceC": "starfruit",
+        "correct": "A",
+        "category": "fruit",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/fruit/english/starfruit.ogg",
+        "choiceA": "starfruit",
+        "choiceB": "cherry",
+        "choiceC": "banana",
+        "correct": "A",
+        "category": "fruit",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/fruit/english/papaya.ogg",
+        "choiceA": "apple",
+        "choiceB": "papaya",
+        "choiceC": "banana",
+        "correct": "B",
+        "category": "fruit",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/fruit/english/dragonfruit.ogg",
+        "choiceA": "watermelon",
+        "choiceB": "cherry",
+        "choiceC": "dragonfruit",
+        "correct": "C",
+        "category": "fruit",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/home/english/towel.ogg",
+        "choiceA": "spoon",
+        "choiceB": "wallet",
+        "choiceC": "towel",
         "correct": "C",
         "category": "home",
         "level": 1
     },
     {
-        "oggSrc": "sound/home/English/soap.ogg",
-        "choiceA": "shoes",
-        "choiceB": "rice cooker",
+        "oggSrc": "sound/home/english/tissue.ogg",
+        "choiceA": "spoon",
+        "choiceB": "tissue",
+        "choiceC": "toilet",
+        "correct": "B",
+        "category": "home",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/home/english/soap.ogg",
+        "choiceA": "bed",
+        "choiceB": "drawer",
         "choiceC": "soap",
         "correct": "C",
         "category": "home",
         "level": 1
     },
     {
-        "oggSrc": "sound/home/English/shampoo.ogg",
-        "choiceA": "toothpaste",
-        "choiceB": "chopstick",
-        "choiceC": "shampoo",
-        "correct": "C",
-        "category": "home",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/home/English/toothpaste.ogg",
-        "choiceA": "toothpaste",
-        "choiceB": "glass",
-        "choiceC": "wallet",
-        "correct": "A",
-        "category": "home",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/home/English/toothbrush.ogg",
-        "choiceA": "skirt",
-        "choiceB": "television",
-        "choiceC": "toothbrush",
-        "correct": "C",
-        "category": "home",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/home/English/comb.ogg",
-        "choiceA": "comb",
-        "choiceB": "towel",
-        "choiceC": "shirt",
-        "correct": "A",
-        "category": "home",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/home/English/suncream.ogg",
-        "choiceA": "clock",
-        "choiceB": "suncream",
-        "choiceC": "jacket",
-        "correct": "B",
-        "category": "home",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/home/English/chair.ogg",
-        "choiceA": "chair",
-        "choiceB": "cup",
-        "choiceC": "hat",
-        "correct": "A",
-        "category": "home",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/home/English/table.ogg",
-        "choiceA": "dress",
-        "choiceB": "mug",
-        "choiceC": "table",
-        "correct": "C",
-        "category": "home",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/home/English/kitchen.ogg",
-        "choiceA": "vaccum cleaner",
-        "choiceB": "kitchen",
-        "choiceC": "laptop",
-        "correct": "B",
-        "category": "home",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/home/English/toilet.ogg",
-        "choiceA": "steamer",
-        "choiceB": "tie",
-        "choiceC": "toilet",
-        "correct": "C",
-        "category": "home",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/home/English/bedroom.ogg",
-        "choiceA": "toilet",
-        "choiceB": "bedroom",
+        "oggSrc": "sound/home/english/shampoo.ogg",
+        "choiceA": "cup",
+        "choiceB": "shampoo",
         "choiceC": "wok",
         "correct": "B",
         "category": "home",
         "level": 1
     },
     {
-        "oggSrc": "sound/home/English/fan.ogg",
-        "choiceA": "fan",
-        "choiceB": "oven",
-        "choiceC": "light bulb",
+        "oggSrc": "sound/home/english/toothpaste.ogg",
+        "choiceA": "scanner",
+        "choiceB": "toothpaste",
+        "choiceC": "wok",
+        "correct": "B",
+        "category": "home",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/home/english/toothbrush.ogg",
+        "choiceA": "chopstick",
+        "choiceB": "toothbrush",
+        "choiceC": "wok",
+        "correct": "B",
+        "category": "home",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/home/english/comb.ogg",
+        "choiceA": "comb",
+        "choiceB": "hat",
+        "choiceC": "clock",
         "correct": "A",
         "category": "home",
         "level": 1
     },
     {
-        "oggSrc": "sound/home/English/air-conditioner.ogg",
-        "choiceA": "table",
-        "choiceB": "oven",
+        "oggSrc": "sound/home/english/suncream.ogg",
+        "choiceA": "shampoo",
+        "choiceB": "suncream",
+        "choiceC": "kitchen",
+        "correct": "B",
+        "category": "home",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/home/english/chair.ogg",
+        "choiceA": "chair",
+        "choiceB": "shirt",
+        "choiceC": "skirt",
+        "correct": "A",
+        "category": "home",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/home/english/table.ogg",
+        "choiceA": "oven",
+        "choiceB": "chopstick",
+        "choiceC": "table",
+        "correct": "C",
+        "category": "home",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/home/english/kitchen.ogg",
+        "choiceA": "cup",
+        "choiceB": "kitchen",
+        "choiceC": "light bulb",
+        "correct": "B",
+        "category": "home",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/home/english/toilet.ogg",
+        "choiceA": "toilet",
+        "choiceB": "wallet",
+        "choiceC": "socks",
+        "correct": "A",
+        "category": "home",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/home/english/bedroom.ogg",
+        "choiceA": "bedroom",
+        "choiceB": "printer",
+        "choiceC": "clock",
+        "correct": "A",
+        "category": "home",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/home/english/fan.ogg",
+        "choiceA": "glove",
+        "choiceB": "fan",
+        "choiceC": "suncream",
+        "correct": "B",
+        "category": "home",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/home/english/air-conditioner.ogg",
+        "choiceA": "soap",
+        "choiceB": "shorts",
         "choiceC": "air-conditioner",
         "correct": "C",
         "category": "home",
         "level": 1
     },
     {
-        "oggSrc": "sound/home/English/television.ogg",
-        "choiceA": "clock",
-        "choiceB": "television",
-        "choiceC": "tie",
-        "correct": "B",
-        "category": "home",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/home/English/computer.ogg",
-        "choiceA": "tissue",
-        "choiceB": "iron",
-        "choiceC": "computer",
-        "correct": "C",
-        "category": "home",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/home/English/laptop.ogg",
-        "choiceA": "shoes",
-        "choiceB": "laptop",
-        "choiceC": "chair",
-        "correct": "B",
-        "category": "home",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/home/English/dust_bin.ogg",
-        "choiceA": "scanner",
-        "choiceB": "skirt",
-        "choiceC": "dust bin",
-        "correct": "C",
-        "category": "home",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/home/English/bed.ogg",
-        "choiceA": "scanner",
-        "choiceB": "drawer",
-        "choiceC": "bed",
-        "correct": "C",
-        "category": "home",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/home/English/cupboard.ogg",
-        "choiceA": "cupboard",
-        "choiceB": "chopstick",
-        "choiceC": "toothbrush",
-        "correct": "A",
-        "category": "home",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/home/English/printer.ogg",
-        "choiceA": "printer",
-        "choiceB": "bowl",
-        "choiceC": "television",
-        "correct": "A",
-        "category": "home",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/home/English/scanner.ogg",
-        "choiceA": "scanner",
-        "choiceB": "light bulb",
-        "choiceC": "shirt",
-        "correct": "A",
-        "category": "home",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/home/English/iron.ogg",
-        "choiceA": "wallet",
-        "choiceB": "iron",
-        "choiceC": "bag",
-        "correct": "B",
-        "category": "home",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/home/English/rice_cooker.ogg",
-        "choiceA": "glove",
-        "choiceB": "rice cooker",
-        "choiceC": "fan",
-        "correct": "B",
-        "category": "home",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/home/English/steamer.ogg",
-        "choiceA": "shoes",
-        "choiceB": "steamer",
-        "choiceC": "toothbrush",
-        "correct": "B",
-        "category": "home",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/home/English/lamp.ogg",
-        "choiceA": "microwave oven",
-        "choiceB": "lamp",
-        "choiceC": "soap",
-        "correct": "B",
-        "category": "home",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/home/English/light_bulb.ogg",
-        "choiceA": "socks",
-        "choiceB": "fork",
-        "choiceC": "light bulb",
-        "correct": "C",
-        "category": "home",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/home/English/clock.ogg",
-        "choiceA": "scanner",
-        "choiceB": "soap",
-        "choiceC": "clock",
-        "correct": "C",
-        "category": "home",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/home/English/vaccum_cleaner.ogg",
-        "choiceA": "chopstick",
-        "choiceB": "bag",
-        "choiceC": "vaccum cleaner",
-        "correct": "C",
-        "category": "home",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/home/English/microwave_oven.ogg",
-        "choiceA": "socks",
-        "choiceB": "laptop",
-        "choiceC": "microwave oven",
-        "correct": "C",
-        "category": "home",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/home/English/oven.ogg",
-        "choiceA": "laptop",
-        "choiceB": "chair",
-        "choiceC": "oven",
-        "correct": "C",
-        "category": "home",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/home/English/bag.ogg",
-        "choiceA": "scanner",
-        "choiceB": "bag",
-        "choiceC": "hat",
-        "correct": "B",
-        "category": "home",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/home/English/drawer.ogg",
-        "choiceA": "suncream",
-        "choiceB": "chair",
-        "choiceC": "drawer",
-        "correct": "C",
-        "category": "home",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/home/English/water_bottle.ogg",
-        "choiceA": "bedroom",
-        "choiceB": "tie",
-        "choiceC": "water bottle",
-        "correct": "C",
-        "category": "home",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/home/English/wallet.ogg",
-        "choiceA": "wallet",
-        "choiceB": "microwave oven",
-        "choiceC": "computer",
-        "correct": "A",
-        "category": "home",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/home/English/glass.ogg",
+        "oggSrc": "sound/home/english/television.ogg",
         "choiceA": "bed",
-        "choiceB": "glass",
-        "choiceC": "water bottle",
-        "correct": "B",
-        "category": "home",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/home/English/mug.ogg",
-        "choiceA": "vaccum cleaner",
-        "choiceB": "mug",
-        "choiceC": "glass",
-        "correct": "B",
-        "category": "home",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/home/English/cup.ogg",
-        "choiceA": "printer",
-        "choiceB": "air-conditioner",
-        "choiceC": "cup",
+        "choiceB": "iron",
+        "choiceC": "television",
         "correct": "C",
         "category": "home",
         "level": 1
     },
     {
-        "oggSrc": "sound/home/English/bowl.ogg",
-        "choiceA": "soap",
-        "choiceB": "shorts",
-        "choiceC": "bowl",
-        "correct": "C",
-        "category": "home",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/home/English/wok.ogg",
-        "choiceA": "wok",
-        "choiceB": "laptop",
-        "choiceC": "fan",
-        "correct": "A",
-        "category": "home",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/home/English/pan.ogg",
-        "choiceA": "suncream",
-        "choiceB": "pan",
-        "choiceC": "toilet",
-        "correct": "B",
-        "category": "home",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/home/English/chopstick.ogg",
-        "choiceA": "fork",
+        "oggSrc": "sound/home/english/computer.ogg",
+        "choiceA": "computer",
         "choiceB": "bedroom",
-        "choiceC": "chopstick",
-        "correct": "C",
-        "category": "home",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/home/English/fork.ogg",
-        "choiceA": "toilet",
-        "choiceB": "fork",
-        "choiceC": "toothpaste",
-        "correct": "B",
-        "category": "home",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/home/English/spoon.ogg",
-        "choiceA": "spoon",
-        "choiceB": "comb",
-        "choiceC": "fork",
+        "choiceC": "table",
         "correct": "A",
         "category": "home",
         "level": 1
     },
     {
-        "oggSrc": "sound/home/English/shoes.ogg",
-        "choiceA": "shoes",
+        "oggSrc": "sound/home/english/laptop.ogg",
+        "choiceA": "laptop",
         "choiceB": "tissue",
         "choiceC": "clock",
         "correct": "A",
@@ -1962,881 +1710,1133 @@ var questionbank=[
         "level": 1
     },
     {
-        "oggSrc": "sound/home/English/shirt.ogg",
+        "oggSrc": "sound/home/english/dust_bin.ogg",
+        "choiceA": "toilet",
+        "choiceB": "dust bin",
+        "choiceC": "drawer",
+        "correct": "B",
+        "category": "home",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/home/english/bed.ogg",
+        "choiceA": "clock",
+        "choiceB": "bed",
+        "choiceC": "laptop",
+        "correct": "B",
+        "category": "home",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/home/english/cupboard.ogg",
         "choiceA": "glove",
+        "choiceB": "cupboard",
+        "choiceC": "oven",
+        "correct": "B",
+        "category": "home",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/home/english/printer.ogg",
+        "choiceA": "chair",
+        "choiceB": "printer",
+        "choiceC": "soap",
+        "correct": "B",
+        "category": "home",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/home/english/scanner.ogg",
+        "choiceA": "scanner",
+        "choiceB": "toothbrush",
+        "choiceC": "suncream",
+        "correct": "A",
+        "category": "home",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/home/english/iron.ogg",
+        "choiceA": "shorts",
         "choiceB": "lamp",
+        "choiceC": "iron",
+        "correct": "C",
+        "category": "home",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/home/english/rice_cooker.ogg",
+        "choiceA": "skirt",
+        "choiceB": "wallet",
+        "choiceC": "rice cooker",
+        "correct": "C",
+        "category": "home",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/home/english/steamer.ogg",
+        "choiceA": "pan",
+        "choiceB": "steamer",
+        "choiceC": "air-conditioner",
+        "correct": "B",
+        "category": "home",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/home/english/lamp.ogg",
+        "choiceA": "lamp",
+        "choiceB": "chair",
+        "choiceC": "fan",
+        "correct": "A",
+        "category": "home",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/home/english/light_bulb.ogg",
+        "choiceA": "spoon",
+        "choiceB": "dress",
+        "choiceC": "light bulb",
+        "correct": "C",
+        "category": "home",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/home/english/clock.ogg",
+        "choiceA": "clock",
+        "choiceB": "socks",
+        "choiceC": "television",
+        "correct": "A",
+        "category": "home",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/home/english/vaccum_cleaner.ogg",
+        "choiceA": "bowl",
+        "choiceB": "vaccum cleaner",
+        "choiceC": "wallet",
+        "correct": "B",
+        "category": "home",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/home/english/microwave_oven.ogg",
+        "choiceA": "microwave oven",
+        "choiceB": "shorts",
+        "choiceC": "table",
+        "correct": "A",
+        "category": "home",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/home/english/oven.ogg",
+        "choiceA": "rice cooker",
+        "choiceB": "oven",
+        "choiceC": "shoes",
+        "correct": "B",
+        "category": "home",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/home/english/bag.ogg",
+        "choiceA": "bag",
+        "choiceB": "bowl",
+        "choiceC": "computer",
+        "correct": "A",
+        "category": "home",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/home/english/drawer.ogg",
+        "choiceA": "drawer",
+        "choiceB": "bowl",
+        "choiceC": "glass",
+        "correct": "A",
+        "category": "home",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/home/english/water_bottle.ogg",
+        "choiceA": "table",
+        "choiceB": "shorts",
+        "choiceC": "water bottle",
+        "correct": "C",
+        "category": "home",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/home/english/wallet.ogg",
+        "choiceA": "laptop",
+        "choiceB": "fork",
+        "choiceC": "wallet",
+        "correct": "C",
+        "category": "home",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/home/english/glass.ogg",
+        "choiceA": "dust bin",
+        "choiceB": "glass",
+        "choiceC": "towel",
+        "correct": "B",
+        "category": "home",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/home/english/mug.ogg",
+        "choiceA": "water bottle",
+        "choiceB": "mug",
+        "choiceC": "oven",
+        "correct": "B",
+        "category": "home",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/home/english/cup.ogg",
+        "choiceA": "spoon",
+        "choiceB": "soap",
+        "choiceC": "cup",
+        "correct": "C",
+        "category": "home",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/home/english/bowl.ogg",
+        "choiceA": "toilet",
+        "choiceB": "mug",
+        "choiceC": "bowl",
+        "correct": "C",
+        "category": "home",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/home/english/wok.ogg",
+        "choiceA": "jacket",
+        "choiceB": "wok",
+        "choiceC": "tissue",
+        "correct": "B",
+        "category": "home",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/home/english/pan.ogg",
+        "choiceA": "rice cooker",
+        "choiceB": "towel",
+        "choiceC": "pan",
+        "correct": "C",
+        "category": "home",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/home/english/chopstick.ogg",
+        "choiceA": "pan",
+        "choiceB": "chopstick",
+        "choiceC": "spoon",
+        "correct": "B",
+        "category": "home",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/home/english/fork.ogg",
+        "choiceA": "water bottle",
+        "choiceB": "fork",
+        "choiceC": "wok",
+        "correct": "B",
+        "category": "home",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/home/english/spoon.ogg",
+        "choiceA": "steamer",
+        "choiceB": "dust bin",
+        "choiceC": "spoon",
+        "correct": "C",
+        "category": "home",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/home/english/shoes.ogg",
+        "choiceA": "shoes",
+        "choiceB": "clock",
+        "choiceC": "printer",
+        "correct": "A",
+        "category": "home",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/home/english/shirt.ogg",
+        "choiceA": "towel",
+        "choiceB": "soap",
         "choiceC": "shirt",
         "correct": "C",
         "category": "home",
         "level": 1
     },
     {
-        "oggSrc": "sound/home/English/shorts.ogg",
-        "choiceA": "television",
+        "oggSrc": "sound/home/english/shorts.ogg",
+        "choiceA": "steamer",
         "choiceB": "shorts",
-        "choiceC": "comb",
+        "choiceC": "microwave oven",
         "correct": "B",
         "category": "home",
         "level": 1
     },
     {
-        "oggSrc": "sound/home/English/jacket.ogg",
-        "choiceA": "light bulb",
-        "choiceB": "jacket",
-        "choiceC": "mug",
-        "correct": "B",
+        "oggSrc": "sound/home/english/jacket.ogg",
+        "choiceA": "shoes",
+        "choiceB": "air-conditioner",
+        "choiceC": "jacket",
+        "correct": "C",
         "category": "home",
         "level": 1
     },
     {
-        "oggSrc": "sound/home/English/socks.ogg",
-        "choiceA": "cupboard",
+        "oggSrc": "sound/home/english/socks.ogg",
+        "choiceA": "scanner",
         "choiceB": "socks",
-        "choiceC": "suncream",
+        "choiceC": "bowl",
         "correct": "B",
         "category": "home",
         "level": 1
     },
     {
-        "oggSrc": "sound/home/English/glove.ogg",
-        "choiceA": "glove",
-        "choiceB": "cup",
-        "choiceC": "clock",
-        "correct": "A",
-        "category": "home",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/home/English/tie.ogg",
-        "choiceA": "mug",
-        "choiceB": "tie",
-        "choiceC": "pan",
-        "correct": "B",
-        "category": "home",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/home/English/hat.ogg",
-        "choiceA": "hat",
-        "choiceB": "toothpaste",
+        "oggSrc": "sound/home/english/glove.ogg",
+        "choiceA": "steamer",
+        "choiceB": "computer",
         "choiceC": "glove",
+        "correct": "C",
+        "category": "home",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/home/english/tie.ogg",
+        "choiceA": "drawer",
+        "choiceB": "tie",
+        "choiceC": "towel",
+        "correct": "B",
+        "category": "home",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/home/english/hat.ogg",
+        "choiceA": "bag",
+        "choiceB": "wok",
+        "choiceC": "hat",
+        "correct": "C",
+        "category": "home",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/home/english/dress.ogg",
+        "choiceA": "dress",
+        "choiceB": "tie",
+        "choiceC": "wok",
         "correct": "A",
         "category": "home",
         "level": 1
     },
     {
-        "oggSrc": "sound/home/English/dress.ogg",
-        "choiceA": "bed",
-        "choiceB": "dress",
-        "choiceC": "hat",
-        "correct": "B",
-        "category": "home",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/home/English/skirt.ogg",
-        "choiceA": "socks",
+        "oggSrc": "sound/home/english/skirt.ogg",
+        "choiceA": "kitchen",
         "choiceB": "skirt",
-        "choiceC": "light bulb",
+        "choiceC": "wallet",
         "correct": "B",
         "category": "home",
         "level": 1
     },
     {
-        "oggSrc": "sound/mathematics/English/one.ogg",
-        "choiceA": "eleven",
-        "choiceB": "three",
+        "oggSrc": "sound/mathematics/english/one.ogg",
+        "choiceA": "four",
+        "choiceB": "six",
         "choiceC": "one",
         "correct": "C",
         "category": "mathematics",
         "level": 1
     },
     {
-        "oggSrc": "sound/mathematics/English/two.ogg",
+        "oggSrc": "sound/mathematics/english/two.ogg",
         "choiceA": "two",
-        "choiceB": "one",
-        "choiceC": "seven",
-        "correct": "A",
-        "category": "mathematics",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/mathematics/English/three.ogg",
-        "choiceA": "nine",
-        "choiceB": "addition",
-        "choiceC": "three",
-        "correct": "C",
-        "category": "mathematics",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/mathematics/English/four.ogg",
-        "choiceA": "twelve",
-        "choiceB": "oval",
-        "choiceC": "four",
-        "correct": "C",
-        "category": "mathematics",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/mathematics/English/five.ogg",
-        "choiceA": "five",
-        "choiceB": "division",
-        "choiceC": "ten",
-        "correct": "A",
-        "category": "mathematics",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/mathematics/English/six.ogg",
-        "choiceA": "twelve",
-        "choiceB": "six",
-        "choiceC": "nine",
-        "correct": "B",
-        "category": "mathematics",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/mathematics/English/seven.ogg",
-        "choiceA": "seven",
-        "choiceB": "subtraction",
-        "choiceC": "addition",
-        "correct": "A",
-        "category": "mathematics",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/mathematics/English/eight.ogg",
-        "choiceA": "rectangle",
-        "choiceB": "eight",
-        "choiceC": "four",
-        "correct": "B",
-        "category": "mathematics",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/mathematics/English/nine.ogg",
-        "choiceA": "nine",
         "choiceB": "twelve",
-        "choiceC": "square",
+        "choiceC": "one",
         "correct": "A",
         "category": "mathematics",
         "level": 1
     },
     {
-        "oggSrc": "sound/mathematics/English/ten.ogg",
-        "choiceA": "ten",
-        "choiceB": "nine",
-        "choiceC": "division",
-        "correct": "A",
-        "category": "mathematics",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/mathematics/English/eleven.ogg",
-        "choiceA": "oval",
-        "choiceB": "eleven",
-        "choiceC": "circle",
-        "correct": "B",
-        "category": "mathematics",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/mathematics/English/twelve.ogg",
-        "choiceA": "five",
-        "choiceB": "addition",
-        "choiceC": "twelve",
-        "correct": "C",
-        "category": "mathematics",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/mathematics/English/square.ogg",
+        "oggSrc": "sound/mathematics/english/three.ogg",
         "choiceA": "three",
-        "choiceB": "four",
-        "choiceC": "square",
-        "correct": "C",
-        "category": "mathematics",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/mathematics/English/rectangle.ogg",
-        "choiceA": "six",
-        "choiceB": "eight",
-        "choiceC": "rectangle",
-        "correct": "C",
-        "category": "mathematics",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/mathematics/English/circle.ogg",
-        "choiceA": "nine",
-        "choiceB": "twelve",
-        "choiceC": "circle",
-        "correct": "C",
-        "category": "mathematics",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/mathematics/English/oval.ogg",
-        "choiceA": "oval",
-        "choiceB": "ten",
+        "choiceB": "eleven",
         "choiceC": "triangle",
         "correct": "A",
         "category": "mathematics",
         "level": 1
     },
     {
-        "oggSrc": "sound/mathematics/English/triangle.ogg",
-        "choiceA": "triangle",
-        "choiceB": "circle",
-        "choiceC": "division",
+        "oggSrc": "sound/mathematics/english/four.ogg",
+        "choiceA": "two",
+        "choiceB": "rectangle",
+        "choiceC": "four",
+        "correct": "C",
+        "category": "mathematics",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/mathematics/english/five.ogg",
+        "choiceA": "five",
+        "choiceB": "six",
+        "choiceC": "twelve",
         "correct": "A",
         "category": "mathematics",
         "level": 1
     },
     {
-        "oggSrc": "sound/mathematics/English/addition.ogg",
-        "choiceA": "addition",
-        "choiceB": "triangle",
-        "choiceC": "square",
+        "oggSrc": "sound/mathematics/english/six.ogg",
+        "choiceA": "eleven",
+        "choiceB": "division",
+        "choiceC": "six",
+        "correct": "C",
+        "category": "mathematics",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/mathematics/english/seven.ogg",
+        "choiceA": "seven",
+        "choiceB": "eight",
+        "choiceC": "rectangle",
         "correct": "A",
         "category": "mathematics",
         "level": 1
     },
     {
-        "oggSrc": "sound/mathematics/English/subtraction.ogg",
+        "oggSrc": "sound/mathematics/english/eight.ogg",
+        "choiceA": "multiplication",
+        "choiceB": "eight",
+        "choiceC": "circle",
+        "correct": "B",
+        "category": "mathematics",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/mathematics/english/nine.ogg",
         "choiceA": "four",
         "choiceB": "rectangle",
-        "choiceC": "subtraction",
+        "choiceC": "nine",
         "correct": "C",
         "category": "mathematics",
         "level": 1
     },
     {
-        "oggSrc": "sound/mathematics/English/multiplication.ogg",
-        "choiceA": "subtraction",
-        "choiceB": "circle",
-        "choiceC": "multiplication",
+        "oggSrc": "sound/mathematics/english/ten.ogg",
+        "choiceA": "ten",
+        "choiceB": "two",
+        "choiceC": "circle",
+        "correct": "A",
+        "category": "mathematics",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/mathematics/english/eleven.ogg",
+        "choiceA": "five",
+        "choiceB": "ten",
+        "choiceC": "eleven",
         "correct": "C",
         "category": "mathematics",
         "level": 1
     },
     {
-        "oggSrc": "sound/mathematics/English/division.ogg",
-        "choiceA": "division",
-        "choiceB": "twelve",
+        "oggSrc": "sound/mathematics/english/twelve.ogg",
+        "choiceA": "seven",
+        "choiceB": "five",
+        "choiceC": "twelve",
+        "correct": "C",
+        "category": "mathematics",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/mathematics/english/square.ogg",
+        "choiceA": "triangle",
+        "choiceB": "two",
         "choiceC": "square",
+        "correct": "C",
+        "category": "mathematics",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/mathematics/english/rectangle.ogg",
+        "choiceA": "rectangle",
+        "choiceB": "three",
+        "choiceC": "two",
         "correct": "A",
         "category": "mathematics",
         "level": 1
     },
     {
-        "oggSrc": "sound/music/English/piano.ogg",
-        "choiceA": "piano",
-        "choiceB": "flute",
-        "choiceC": "drum",
-        "correct": "A",
-        "category": "music",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/music/English/song.ogg",
-        "choiceA": "drum",
-        "choiceB": "song",
-        "choiceC": "music",
+        "oggSrc": "sound/mathematics/english/circle.ogg",
+        "choiceA": "addition",
+        "choiceB": "circle",
+        "choiceC": "subtraction",
         "correct": "B",
-        "category": "music",
+        "category": "mathematics",
         "level": 1
     },
     {
-        "oggSrc": "sound/music/English/drum.ogg",
-        "choiceA": "flute",
+        "oggSrc": "sound/mathematics/english/oval.ogg",
+        "choiceA": "oval",
+        "choiceB": "one",
+        "choiceC": "eleven",
+        "correct": "A",
+        "category": "mathematics",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/mathematics/english/triangle.ogg",
+        "choiceA": "three",
+        "choiceB": "seven",
+        "choiceC": "triangle",
+        "correct": "C",
+        "category": "mathematics",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/mathematics/english/addition.ogg",
+        "choiceA": "addition",
+        "choiceB": "four",
+        "choiceC": "five",
+        "correct": "A",
+        "category": "mathematics",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/mathematics/english/subtraction.ogg",
+        "choiceA": "subtraction",
+        "choiceB": "division",
+        "choiceC": "one",
+        "correct": "A",
+        "category": "mathematics",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/mathematics/english/multiplication.ogg",
+        "choiceA": "multiplication",
+        "choiceB": "division",
+        "choiceC": "addition",
+        "correct": "A",
+        "category": "mathematics",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/mathematics/english/division.ogg",
+        "choiceA": "ten",
+        "choiceB": "division",
+        "choiceC": "two",
+        "correct": "B",
+        "category": "mathematics",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/music/english/piano.ogg",
+        "choiceA": "piano",
         "choiceB": "drum",
         "choiceC": "guitar",
-        "correct": "B",
-        "category": "music",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/music/English/flute.ogg",
-        "choiceA": "flute",
-        "choiceB": "song",
-        "choiceC": "guitar",
         "correct": "A",
         "category": "music",
         "level": 1
     },
     {
-        "oggSrc": "sound/music/English/music.ogg",
-        "choiceA": "guitar",
+        "oggSrc": "sound/music/english/song.ogg",
+        "choiceA": "piano",
         "choiceB": "music",
-        "choiceC": "drum",
-        "correct": "B",
-        "category": "music",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/music/English/guitar.ogg",
-        "choiceA": "flute",
-        "choiceB": "piano",
-        "choiceC": "guitar",
+        "choiceC": "song",
         "correct": "C",
         "category": "music",
         "level": 1
     },
     {
-        "oggSrc": "sound/occupation/English/teacher.ogg",
-        "choiceA": "teacher",
-        "choiceB": "pilot",
-        "choiceC": "hairdresser",
+        "oggSrc": "sound/music/english/drum.ogg",
+        "choiceA": "piano",
+        "choiceB": "music",
+        "choiceC": "drum",
+        "correct": "C",
+        "category": "music",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/music/english/flute.ogg",
+        "choiceA": "music",
+        "choiceB": "guitar",
+        "choiceC": "flute",
+        "correct": "C",
+        "category": "music",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/music/english/music.ogg",
+        "choiceA": "music",
+        "choiceB": "guitar",
+        "choiceC": "flute",
         "correct": "A",
+        "category": "music",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/music/english/guitar.ogg",
+        "choiceA": "guitar",
+        "choiceB": "song",
+        "choiceC": "piano",
+        "correct": "A",
+        "category": "music",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/occupation/english/teacher.ogg",
+        "choiceA": "cashier",
+        "choiceB": "plumber",
+        "choiceC": "teacher",
+        "correct": "C",
         "category": "occupation",
         "level": 1
     },
     {
-        "oggSrc": "sound/occupation/English/policeman.ogg",
-        "choiceA": "clown",
-        "choiceB": "policeman",
-        "choiceC": "pharmacist",
-        "correct": "B",
+        "oggSrc": "sound/occupation/english/policeman.ogg",
+        "choiceA": "waiter",
+        "choiceB": "pharmacist",
+        "choiceC": "policeman",
+        "correct": "C",
         "category": "occupation",
         "level": 1
     },
     {
-        "oggSrc": "sound/occupation/English/fireman.ogg",
-        "choiceA": "designer",
-        "choiceB": "clown",
+        "oggSrc": "sound/occupation/english/fireman.ogg",
+        "choiceA": "barber",
+        "choiceB": "nurse",
         "choiceC": "fireman",
         "correct": "C",
         "category": "occupation",
         "level": 1
     },
     {
-        "oggSrc": "sound/occupation/English/fisherman.ogg",
-        "choiceA": "singer",
-        "choiceB": "fisherman",
-        "choiceC": "artist",
-        "correct": "B",
-        "category": "occupation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/occupation/English/driver.ogg",
-        "choiceA": "librarian",
-        "choiceB": "musician",
-        "choiceC": "driver",
-        "correct": "C",
-        "category": "occupation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/occupation/English/farmer.ogg",
-        "choiceA": "translator",
-        "choiceB": "lawyer",
-        "choiceC": "farmer",
-        "correct": "C",
-        "category": "occupation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/occupation/English/waiter.ogg",
-        "choiceA": "waiter",
-        "choiceB": "tourist guide",
-        "choiceC": "sailor",
-        "correct": "A",
-        "category": "occupation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/occupation/English/nurse.ogg",
-        "choiceA": "clown",
-        "choiceB": "nurse",
-        "choiceC": "clerk",
-        "correct": "B",
-        "category": "occupation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/occupation/English/doctor.ogg",
-        "choiceA": "cook",
-        "choiceB": "life guard",
-        "choiceC": "doctor",
-        "correct": "C",
-        "category": "occupation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/occupation/English/musician.ogg",
-        "choiceA": "musician",
-        "choiceB": "teacher",
-        "choiceC": "coach",
-        "correct": "A",
-        "category": "occupation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/occupation/English/painter.ogg",
-        "choiceA": "painter",
-        "choiceB": "waiter",
-        "choiceC": "life guard",
-        "correct": "A",
-        "category": "occupation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/occupation/English/artist.ogg",
-        "choiceA": "teacher",
-        "choiceB": "artist",
-        "choiceC": "receptionist",
-        "correct": "B",
-        "category": "occupation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/occupation/English/lawyer.ogg",
-        "choiceA": "coach",
-        "choiceB": "librarian",
-        "choiceC": "lawyer",
-        "correct": "C",
-        "category": "occupation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/occupation/English/cook.ogg",
-        "choiceA": "engineer",
-        "choiceB": "cook",
-        "choiceC": "manager",
-        "correct": "B",
-        "category": "occupation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/occupation/English/secretary.ogg",
-        "choiceA": "secretary",
-        "choiceB": "nurse",
-        "choiceC": "cashier",
-        "correct": "A",
-        "category": "occupation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/occupation/English/manager.ogg",
-        "choiceA": "accountant",
-        "choiceB": "lawyer",
-        "choiceC": "manager",
-        "correct": "C",
-        "category": "occupation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/occupation/English/receptionist.ogg",
-        "choiceA": "accountant",
-        "choiceB": "receptionist",
-        "choiceC": "singer",
-        "correct": "B",
-        "category": "occupation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/occupation/English/journalist.ogg",
-        "choiceA": "social worker",
-        "choiceB": "journalist",
-        "choiceC": "farmer",
-        "correct": "B",
-        "category": "occupation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/occupation/English/pharmacist.ogg",
-        "choiceA": "barber",
-        "choiceB": "judge",
-        "choiceC": "pharmacist",
-        "correct": "C",
-        "category": "occupation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/occupation/English/judge.ogg",
-        "choiceA": "waiter",
-        "choiceB": "judge",
-        "choiceC": "doctor",
-        "correct": "B",
-        "category": "occupation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/occupation/English/lawyer.ogg",
-        "choiceA": "doctor",
-        "choiceB": "lawyer",
-        "choiceC": "cook",
-        "correct": "B",
-        "category": "occupation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/occupation/English/plumber.ogg",
-        "choiceA": "sailor",
-        "choiceB": "plumber",
-        "choiceC": "farmer",
-        "correct": "B",
-        "category": "occupation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/occupation/English/engineer.ogg",
-        "choiceA": "social worker",
-        "choiceB": "proofreader",
-        "choiceC": "engineer",
-        "correct": "C",
-        "category": "occupation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/occupation/English/barber.ogg",
-        "choiceA": "barber",
-        "choiceB": "gardener",
-        "choiceC": "painter",
-        "correct": "A",
-        "category": "occupation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/occupation/English/tourist_guide.ogg",
-        "choiceA": "clown",
-        "choiceB": "tourist guide",
-        "choiceC": "historian",
-        "correct": "B",
-        "category": "occupation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/occupation/English/cleaner.ogg",
-        "choiceA": "accountant",
-        "choiceB": "student",
-        "choiceC": "cleaner",
-        "correct": "C",
-        "category": "occupation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/occupation/English/pilot.ogg",
-        "choiceA": "lawyer",
-        "choiceB": "mathematician",
-        "choiceC": "pilot",
-        "correct": "C",
-        "category": "occupation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/occupation/English/sailor.ogg",
-        "choiceA": "historian",
-        "choiceB": "pilot",
-        "choiceC": "sailor",
-        "correct": "C",
-        "category": "occupation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/occupation/English/botanist.ogg",
-        "choiceA": "botanist",
-        "choiceB": "teacher",
-        "choiceC": "cook",
-        "correct": "A",
-        "category": "occupation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/occupation/English/accountant.ogg",
-        "choiceA": "life guard",
-        "choiceB": "accountant",
-        "choiceC": "pharmacist",
-        "correct": "B",
-        "category": "occupation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/occupation/English/dancer.ogg",
-        "choiceA": "dancer",
-        "choiceB": "translator",
-        "choiceC": "cleaner",
-        "correct": "A",
-        "category": "occupation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/occupation/English/singer.ogg",
-        "choiceA": "gardener",
-        "choiceB": "historian",
-        "choiceC": "singer",
-        "correct": "C",
-        "category": "occupation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/occupation/English/clerk.ogg",
-        "choiceA": "interpreter",
-        "choiceB": "clerk",
-        "choiceC": "lawyer",
-        "correct": "B",
-        "category": "occupation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/occupation/English/clown.ogg",
-        "choiceA": "clown",
-        "choiceB": "principal",
-        "choiceC": "trader",
-        "correct": "A",
-        "category": "occupation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/occupation/English/historian.ogg",
-        "choiceA": "doctor",
-        "choiceB": "principal",
-        "choiceC": "historian",
-        "correct": "C",
-        "category": "occupation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/occupation/English/student.ogg",
-        "choiceA": "barber",
-        "choiceB": "statistician",
-        "choiceC": "student",
-        "correct": "C",
-        "category": "occupation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/occupation/English/gardener.ogg",
-        "choiceA": "gardener",
-        "choiceB": "musician",
-        "choiceC": "painter",
-        "correct": "A",
-        "category": "occupation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/occupation/English/hairdresser.ogg",
-        "choiceA": "pilot",
-        "choiceB": "hairdresser",
-        "choiceC": "lawyer",
-        "correct": "B",
-        "category": "occupation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/occupation/English/life_guard.ogg",
-        "choiceA": "locksmith",
-        "choiceB": "life guard",
-        "choiceC": "cook",
-        "correct": "B",
-        "category": "occupation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/occupation/English/librarian.ogg",
-        "choiceA": "pharmacist",
-        "choiceB": "hairdresser",
-        "choiceC": "librarian",
-        "correct": "C",
-        "category": "occupation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/occupation/English/locksmith.ogg",
-        "choiceA": "locksmith",
-        "choiceB": "clerk",
-        "choiceC": "clown",
-        "correct": "A",
-        "category": "occupation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/occupation/English/translator.ogg",
-        "choiceA": "translator",
-        "choiceB": "painter",
-        "choiceC": "social worker",
-        "correct": "A",
-        "category": "occupation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/occupation/English/interpreter.ogg",
-        "choiceA": "interpreter",
-        "choiceB": "dancer",
-        "choiceC": "nurse",
-        "correct": "A",
-        "category": "occupation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/occupation/English/cashier.ogg",
-        "choiceA": "cashier",
-        "choiceB": "driver",
-        "choiceC": "teacher",
-        "correct": "A",
-        "category": "occupation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/occupation/English/trader.ogg",
-        "choiceA": "barber",
-        "choiceB": "manager",
-        "choiceC": "trader",
-        "correct": "C",
-        "category": "occupation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/occupation/English/shopkeeper.ogg",
-        "choiceA": "trader",
+        "oggSrc": "sound/occupation/english/fisherman.ogg",
+        "choiceA": "judge",
         "choiceB": "shopkeeper",
-        "choiceC": "translator",
-        "correct": "B",
-        "category": "occupation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/occupation/English/proofreader.ogg",
-        "choiceA": "mathematician",
-        "choiceB": "fireman",
-        "choiceC": "proofreader",
+        "choiceC": "fisherman",
         "correct": "C",
         "category": "occupation",
         "level": 1
     },
     {
-        "oggSrc": "sound/occupation/English/designer.ogg",
-        "choiceA": "trader",
+        "oggSrc": "sound/occupation/english/driver.ogg",
+        "choiceA": "driver",
+        "choiceB": "receptionist",
+        "choiceC": "cook",
+        "correct": "A",
+        "category": "occupation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/occupation/english/farmer.ogg",
+        "choiceA": "farmer",
+        "choiceB": "coach",
+        "choiceC": "driver",
+        "correct": "A",
+        "category": "occupation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/occupation/english/waiter.ogg",
+        "choiceA": "historian",
+        "choiceB": "clerk",
+        "choiceC": "waiter",
+        "correct": "C",
+        "category": "occupation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/occupation/english/nurse.ogg",
+        "choiceA": "student",
+        "choiceB": "manager",
+        "choiceC": "nurse",
+        "correct": "C",
+        "category": "occupation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/occupation/english/doctor.ogg",
+        "choiceA": "tailor",
         "choiceB": "teacher",
-        "choiceC": "designer",
+        "choiceC": "doctor",
         "correct": "C",
         "category": "occupation",
         "level": 1
     },
     {
-        "oggSrc": "sound/occupation/English/politician.ogg",
-        "choiceA": "fireman",
-        "choiceB": "student",
-        "choiceC": "politician",
-        "correct": "C",
-        "category": "occupation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/occupation/English/mathematician.ogg",
+        "oggSrc": "sound/occupation/english/musician.ogg",
         "choiceA": "plumber",
-        "choiceB": "musician",
-        "choiceC": "mathematician",
+        "choiceB": "secretary",
+        "choiceC": "musician",
         "correct": "C",
         "category": "occupation",
         "level": 1
     },
     {
-        "oggSrc": "sound/occupation/English/statistician.ogg",
-        "choiceA": "statistician",
-        "choiceB": "farmer",
-        "choiceC": "pilot",
-        "correct": "A",
+        "oggSrc": "sound/occupation/english/painter.ogg",
+        "choiceA": "botanist",
+        "choiceB": "politician",
+        "choiceC": "painter",
+        "correct": "C",
         "category": "occupation",
         "level": 1
     },
     {
-        "oggSrc": "sound/occupation/English/tailor.ogg",
-        "choiceA": "gardener",
-        "choiceB": "tailor",
-        "choiceC": "trader",
+        "oggSrc": "sound/occupation/english/artist.ogg",
+        "choiceA": "clerk",
+        "choiceB": "artist",
+        "choiceC": "dancer",
         "correct": "B",
         "category": "occupation",
         "level": 1
     },
     {
-        "oggSrc": "sound/occupation/English/coach.ogg",
-        "choiceA": "coach",
-        "choiceB": "dancer",
-        "choiceC": "clown",
-        "correct": "A",
-        "category": "occupation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/occupation/English/carpenter.ogg",
-        "choiceA": "carpenter",
-        "choiceB": "social worker",
-        "choiceC": "translator",
-        "correct": "A",
-        "category": "occupation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/occupation/English/principal.ogg",
-        "choiceA": "designer",
-        "choiceB": "locksmith",
-        "choiceC": "principal",
-        "correct": "C",
-        "category": "occupation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/occupation/English/social_worker.ogg",
-        "choiceA": "social worker",
-        "choiceB": "driver",
+        "oggSrc": "sound/occupation/english/lawyer.ogg",
+        "choiceA": "lawyer",
+        "choiceB": "engineer",
         "choiceC": "tailor",
         "correct": "A",
         "category": "occupation",
         "level": 1
     },
     {
-        "oggSrc": "sound/place/English/school.ogg",
-        "choiceA": "school",
-        "choiceB": "restaurant",
-        "choiceC": "supermarket",
+        "oggSrc": "sound/occupation/english/cook.ogg",
+        "choiceA": "cook",
+        "choiceB": "pharmacist",
+        "choiceC": "pilot",
         "correct": "A",
-        "category": "place",
+        "category": "occupation",
         "level": 1
     },
     {
-        "oggSrc": "sound/place/English/home.ogg",
-        "choiceA": "restaurant",
-        "choiceB": "train station",
-        "choiceC": "home",
+        "oggSrc": "sound/occupation/english/secretary.ogg",
+        "choiceA": "lawyer",
+        "choiceB": "secretary",
+        "choiceC": "clown",
+        "correct": "B",
+        "category": "occupation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/occupation/english/manager.ogg",
+        "choiceA": "proofreader",
+        "choiceB": "manager",
+        "choiceC": "gardener",
+        "correct": "B",
+        "category": "occupation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/occupation/english/receptionist.ogg",
+        "choiceA": "statistician",
+        "choiceB": "receptionist",
+        "choiceC": "lawyer",
+        "correct": "B",
+        "category": "occupation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/occupation/english/journalist.ogg",
+        "choiceA": "nurse",
+        "choiceB": "engineer",
+        "choiceC": "journalist",
         "correct": "C",
-        "category": "place",
+        "category": "occupation",
         "level": 1
     },
     {
-        "oggSrc": "sound/place/English/hospital.ogg",
-        "choiceA": "restaurant",
-        "choiceB": "train station",
-        "choiceC": "hospital",
+        "oggSrc": "sound/occupation/english/pharmacist.ogg",
+        "choiceA": "pharmacist",
+        "choiceB": "hairdresser",
+        "choiceC": "trader",
+        "correct": "A",
+        "category": "occupation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/occupation/english/judge.ogg",
+        "choiceA": "interpreter",
+        "choiceB": "fisherman",
+        "choiceC": "judge",
         "correct": "C",
-        "category": "place",
+        "category": "occupation",
         "level": 1
     },
     {
-        "oggSrc": "sound/place/English/supermarket.ogg",
-        "choiceA": "airport",
-        "choiceB": "train station",
-        "choiceC": "supermarket",
+        "oggSrc": "sound/occupation/english/lawyer.ogg",
+        "choiceA": "clown",
+        "choiceB": "cook",
+        "choiceC": "lawyer",
         "correct": "C",
-        "category": "place",
+        "category": "occupation",
         "level": 1
     },
     {
-        "oggSrc": "sound/place/English/shopping_center.ogg",
-        "choiceA": "supermarket",
-        "choiceB": "shopping center",
-        "choiceC": "police station",
+        "oggSrc": "sound/occupation/english/plumber.ogg",
+        "choiceA": "gardener",
+        "choiceB": "musician",
+        "choiceC": "plumber",
+        "correct": "C",
+        "category": "occupation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/occupation/english/engineer.ogg",
+        "choiceA": "social worker",
+        "choiceB": "historian",
+        "choiceC": "engineer",
+        "correct": "C",
+        "category": "occupation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/occupation/english/barber.ogg",
+        "choiceA": "hairdresser",
+        "choiceB": "barber",
+        "choiceC": "clown",
+        "correct": "B",
+        "category": "occupation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/occupation/english/tourist_guide.ogg",
+        "choiceA": "cleaner",
+        "choiceB": "driver",
+        "choiceC": "tourist guide",
+        "correct": "C",
+        "category": "occupation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/occupation/english/cleaner.ogg",
+        "choiceA": "locksmith",
+        "choiceB": "clerk",
+        "choiceC": "cleaner",
+        "correct": "C",
+        "category": "occupation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/occupation/english/pilot.ogg",
+        "choiceA": "translator",
+        "choiceB": "interpreter",
+        "choiceC": "pilot",
+        "correct": "C",
+        "category": "occupation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/occupation/english/sailor.ogg",
+        "choiceA": "sailor",
+        "choiceB": "engineer",
+        "choiceC": "locksmith",
+        "correct": "A",
+        "category": "occupation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/occupation/english/botanist.ogg",
+        "choiceA": "botanist",
+        "choiceB": "tailor",
+        "choiceC": "fireman",
+        "correct": "A",
+        "category": "occupation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/occupation/english/accountant.ogg",
+        "choiceA": "accountant",
+        "choiceB": "policeman",
+        "choiceC": "principal",
+        "correct": "A",
+        "category": "occupation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/occupation/english/dancer.ogg",
+        "choiceA": "painter",
+        "choiceB": "proofreader",
+        "choiceC": "dancer",
+        "correct": "C",
+        "category": "occupation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/occupation/english/singer.ogg",
+        "choiceA": "engineer",
+        "choiceB": "singer",
+        "choiceC": "nurse",
+        "correct": "B",
+        "category": "occupation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/occupation/english/clerk.ogg",
+        "choiceA": "manager",
+        "choiceB": "musician",
+        "choiceC": "clerk",
+        "correct": "C",
+        "category": "occupation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/occupation/english/clown.ogg",
+        "choiceA": "cashier",
+        "choiceB": "clown",
+        "choiceC": "policeman",
+        "correct": "B",
+        "category": "occupation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/occupation/english/historian.ogg",
+        "choiceA": "designer",
+        "choiceB": "teacher",
+        "choiceC": "historian",
+        "correct": "C",
+        "category": "occupation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/occupation/english/student.ogg",
+        "choiceA": "mathematician",
+        "choiceB": "student",
+        "choiceC": "historian",
+        "correct": "B",
+        "category": "occupation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/occupation/english/gardener.ogg",
+        "choiceA": "trader",
+        "choiceB": "singer",
+        "choiceC": "gardener",
+        "correct": "C",
+        "category": "occupation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/occupation/english/hairdresser.ogg",
+        "choiceA": "hairdresser",
+        "choiceB": "trader",
+        "choiceC": "singer",
+        "correct": "A",
+        "category": "occupation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/occupation/english/life_guard.ogg",
+        "choiceA": "singer",
+        "choiceB": "judge",
+        "choiceC": "life guard",
+        "correct": "C",
+        "category": "occupation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/occupation/english/librarian.ogg",
+        "choiceA": "fireman",
+        "choiceB": "librarian",
+        "choiceC": "nurse",
+        "correct": "B",
+        "category": "occupation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/occupation/english/locksmith.ogg",
+        "choiceA": "judge",
+        "choiceB": "social worker",
+        "choiceC": "locksmith",
+        "correct": "C",
+        "category": "occupation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/occupation/english/translator.ogg",
+        "choiceA": "translator",
+        "choiceB": "manager",
+        "choiceC": "accountant",
+        "correct": "A",
+        "category": "occupation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/occupation/english/interpreter.ogg",
+        "choiceA": "botanist",
+        "choiceB": "interpreter",
+        "choiceC": "lawyer",
+        "correct": "B",
+        "category": "occupation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/occupation/english/cashier.ogg",
+        "choiceA": "engineer",
+        "choiceB": "cashier",
+        "choiceC": "student",
+        "correct": "B",
+        "category": "occupation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/occupation/english/trader.ogg",
+        "choiceA": "tailor",
+        "choiceB": "trader",
+        "choiceC": "gardener",
+        "correct": "B",
+        "category": "occupation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/occupation/english/shopkeeper.ogg",
+        "choiceA": "doctor",
+        "choiceB": "shopkeeper",
+        "choiceC": "pharmacist",
+        "correct": "B",
+        "category": "occupation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/occupation/english/proofreader.ogg",
+        "choiceA": "carpenter",
+        "choiceB": "driver",
+        "choiceC": "proofreader",
+        "correct": "C",
+        "category": "occupation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/occupation/english/designer.ogg",
+        "choiceA": "designer",
+        "choiceB": "secretary",
+        "choiceC": "statistician",
+        "correct": "A",
+        "category": "occupation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/occupation/english/politician.ogg",
+        "choiceA": "sailor",
+        "choiceB": "politician",
+        "choiceC": "cashier",
+        "correct": "B",
+        "category": "occupation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/occupation/english/mathematician.ogg",
+        "choiceA": "trader",
+        "choiceB": "mathematician",
+        "choiceC": "manager",
+        "correct": "B",
+        "category": "occupation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/occupation/english/statistician.ogg",
+        "choiceA": "lawyer",
+        "choiceB": "shopkeeper",
+        "choiceC": "statistician",
+        "correct": "C",
+        "category": "occupation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/occupation/english/tailor.ogg",
+        "choiceA": "pharmacist",
+        "choiceB": "nurse",
+        "choiceC": "tailor",
+        "correct": "C",
+        "category": "occupation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/occupation/english/coach.ogg",
+        "choiceA": "manager",
+        "choiceB": "driver",
+        "choiceC": "coach",
+        "correct": "C",
+        "category": "occupation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/occupation/english/carpenter.ogg",
+        "choiceA": "carpenter",
+        "choiceB": "policeman",
+        "choiceC": "social worker",
+        "correct": "A",
+        "category": "occupation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/occupation/english/principal.ogg",
+        "choiceA": "principal",
+        "choiceB": "dancer",
+        "choiceC": "tailor",
+        "correct": "A",
+        "category": "occupation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/occupation/english/social_worker.ogg",
+        "choiceA": "social worker",
+        "choiceB": "receptionist",
+        "choiceC": "hairdresser",
+        "correct": "A",
+        "category": "occupation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/place/english/school.ogg",
+        "choiceA": "police station",
+        "choiceB": "school",
+        "choiceC": "airport",
         "correct": "B",
         "category": "place",
         "level": 1
     },
     {
-        "oggSrc": "sound/place/English/restaurant.ogg",
+        "oggSrc": "sound/place/english/home.ogg",
+        "choiceA": "home",
+        "choiceB": "airport",
+        "choiceC": "school",
+        "correct": "A",
+        "category": "place",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/place/english/hospital.ogg",
+        "choiceA": "hospital",
+        "choiceB": "home",
+        "choiceC": "police station",
+        "correct": "A",
+        "category": "place",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/place/english/supermarket.ogg",
+        "choiceA": "supermarket",
+        "choiceB": "airport",
+        "choiceC": "train station",
+        "correct": "A",
+        "category": "place",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/place/english/shopping_center.ogg",
         "choiceA": "train station",
+        "choiceB": "shopping center",
+        "choiceC": "school",
+        "correct": "B",
+        "category": "place",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/place/english/restaurant.ogg",
+        "choiceA": "supermarket",
         "choiceB": "hospital",
         "choiceC": "restaurant",
         "correct": "C",
@@ -2844,17 +2844,17 @@ var questionbank=[
         "level": 1
     },
     {
-        "oggSrc": "sound/place/English/police_station.ogg",
-        "choiceA": "shopping center",
-        "choiceB": "police station",
-        "choiceC": "cinema",
-        "correct": "B",
+        "oggSrc": "sound/place/english/police_station.ogg",
+        "choiceA": "police station",
+        "choiceB": "school",
+        "choiceC": "restaurant",
+        "correct": "A",
         "category": "place",
         "level": 1
     },
     {
-        "oggSrc": "sound/place/English/airport.ogg",
-        "choiceA": "restaurant",
+        "oggSrc": "sound/place/english/airport.ogg",
+        "choiceA": "school",
         "choiceB": "cinema",
         "choiceC": "airport",
         "correct": "C",
@@ -2862,71 +2862,71 @@ var questionbank=[
         "level": 1
     },
     {
-        "oggSrc": "sound/place/English/train_station.ogg",
-        "choiceA": "shopping center",
+        "oggSrc": "sound/place/english/train_station.ogg",
+        "choiceA": "police station",
         "choiceB": "train station",
-        "choiceC": "police station",
+        "choiceC": "restaurant",
         "correct": "B",
         "category": "place",
         "level": 1
     },
     {
-        "oggSrc": "sound/place/English/cinema.ogg",
-        "choiceA": "home",
-        "choiceB": "cinema",
-        "choiceC": "police station",
-        "correct": "B",
+        "oggSrc": "sound/place/english/cinema.ogg",
+        "choiceA": "shopping center",
+        "choiceB": "home",
+        "choiceC": "cinema",
+        "correct": "C",
         "category": "place",
         "level": 1
     },
     {
-        "oggSrc": "sound/plant/English/flower.ogg",
-        "choiceA": "weed",
-        "choiceB": "flower",
-        "choiceC": "dandelion",
+        "oggSrc": "sound/plant/english/flower.ogg",
+        "choiceA": "grass",
+        "choiceB": "lotus",
+        "choiceC": "flower",
+        "correct": "C",
+        "category": "plant",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/plant/english/mushroom.ogg",
+        "choiceA": "orchid",
+        "choiceB": "tulip",
+        "choiceC": "mushroom",
+        "correct": "C",
+        "category": "plant",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/plant/english/grass.ogg",
+        "choiceA": "orchid",
+        "choiceB": "grass",
+        "choiceC": "flower",
         "correct": "B",
         "category": "plant",
         "level": 1
     },
     {
-        "oggSrc": "sound/plant/English/mushroom.ogg",
-        "choiceA": "mushroom",
-        "choiceB": "tulip",
-        "choiceC": "flower",
+        "oggSrc": "sound/plant/english/weed.ogg",
+        "choiceA": "weed",
+        "choiceB": "lotus",
+        "choiceC": "mushroom",
         "correct": "A",
         "category": "plant",
         "level": 1
     },
     {
-        "oggSrc": "sound/plant/English/grass.ogg",
-        "choiceA": "tulip",
-        "choiceB": "sunflower",
-        "choiceC": "grass",
-        "correct": "C",
-        "category": "plant",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/plant/English/weed.ogg",
+        "oggSrc": "sound/plant/english/corn.ogg",
         "choiceA": "grass",
-        "choiceB": "bamboo",
-        "choiceC": "weed",
-        "correct": "C",
+        "choiceB": "corn",
+        "choiceC": "tulip",
+        "correct": "B",
         "category": "plant",
         "level": 1
     },
     {
-        "oggSrc": "sound/plant/English/corn.ogg",
-        "choiceA": "flower",
-        "choiceB": "bamboo",
-        "choiceC": "corn",
-        "correct": "C",
-        "category": "plant",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/plant/English/bamboo.ogg",
-        "choiceA": "sunflower",
+        "oggSrc": "sound/plant/english/bamboo.ogg",
+        "choiceA": "orchid",
         "choiceB": "bamboo",
         "choiceC": "weed",
         "correct": "B",
@@ -2934,8 +2934,8 @@ var questionbank=[
         "level": 1
     },
     {
-        "oggSrc": "sound/plant/English/palm_tree.ogg",
-        "choiceA": "orchid",
+        "oggSrc": "sound/plant/english/palm_tree.ogg",
+        "choiceA": "rose",
         "choiceB": "sunflower",
         "choiceC": "palm tree",
         "correct": "C",
@@ -2943,829 +2943,829 @@ var questionbank=[
         "level": 1
     },
     {
-        "oggSrc": "sound/plant/English/bush.ogg",
+        "oggSrc": "sound/plant/english/bush.ogg",
+        "choiceA": "orchid",
+        "choiceB": "bamboo",
+        "choiceC": "bush",
+        "correct": "C",
+        "category": "plant",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/plant/english/rose.ogg",
+        "choiceA": "dandelion",
+        "choiceB": "weed",
+        "choiceC": "rose",
+        "correct": "C",
+        "category": "plant",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/plant/english/tulip.ogg",
         "choiceA": "bush",
         "choiceB": "tulip",
-        "choiceC": "weed",
-        "correct": "A",
-        "category": "plant",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/plant/English/rose.ogg",
-        "choiceA": "orchid",
-        "choiceB": "dandelion",
-        "choiceC": "rose",
-        "correct": "C",
-        "category": "plant",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/plant/English/tulip.ogg",
-        "choiceA": "tulip",
-        "choiceB": "lotus",
-        "choiceC": "sunflower",
-        "correct": "A",
-        "category": "plant",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/plant/English/sunflower.ogg",
-        "choiceA": "sunflower",
-        "choiceB": "grass",
-        "choiceC": "rose",
-        "correct": "A",
-        "category": "plant",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/plant/English/orchid.ogg",
-        "choiceA": "flower",
-        "choiceB": "orchid",
-        "choiceC": "bush",
+        "choiceC": "grass",
         "correct": "B",
         "category": "plant",
         "level": 1
     },
     {
-        "oggSrc": "sound/plant/English/lotus.ogg",
+        "oggSrc": "sound/plant/english/sunflower.ogg",
         "choiceA": "bush",
         "choiceB": "sunflower",
-        "choiceC": "lotus",
-        "correct": "C",
-        "category": "plant",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/plant/English/dandelion.ogg",
-        "choiceA": "weed",
-        "choiceB": "dandelion",
-        "choiceC": "mushroom",
+        "choiceC": "rose",
         "correct": "B",
         "category": "plant",
         "level": 1
     },
     {
-        "oggSrc": "sound/plant/English/chrysanthemum.ogg",
-        "choiceA": "chrysanthemum",
-        "choiceB": "lotus",
+        "oggSrc": "sound/plant/english/orchid.ogg",
+        "choiceA": "tulip",
+        "choiceB": "weed",
         "choiceC": "orchid",
+        "correct": "C",
+        "category": "plant",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/plant/english/lotus.ogg",
+        "choiceA": "lotus",
+        "choiceB": "weed",
+        "choiceC": "bamboo",
         "correct": "A",
         "category": "plant",
         "level": 1
     },
     {
-        "oggSrc": "sound/stationery/English/pen.ogg",
+        "oggSrc": "sound/plant/english/dandelion.ogg",
+        "choiceA": "flower",
+        "choiceB": "corn",
+        "choiceC": "dandelion",
+        "correct": "C",
+        "category": "plant",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/plant/english/chrysanthemum.ogg",
+        "choiceA": "flower",
+        "choiceB": "palm tree",
+        "choiceC": "chrysanthemum",
+        "correct": "C",
+        "category": "plant",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/stationery/english/pen.ogg",
+        "choiceA": "calculator",
+        "choiceB": "book",
+        "choiceC": "pen",
+        "correct": "C",
+        "category": "stationery",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/stationery/english/pencil.ogg",
+        "choiceA": "paper clip",
+        "choiceB": "calculator",
+        "choiceC": "pencil",
+        "correct": "C",
+        "category": "stationery",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/stationery/english/paper.ogg",
         "choiceA": "pencil",
         "choiceB": "pen",
+        "choiceC": "paper",
+        "correct": "C",
+        "category": "stationery",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/stationery/english/book.ogg",
+        "choiceA": "scissors",
+        "choiceB": "book",
         "choiceC": "notebook",
         "correct": "B",
         "category": "stationery",
         "level": 1
     },
     {
-        "oggSrc": "sound/stationery/English/pencil.ogg",
-        "choiceA": "pencil",
-        "choiceB": "paper clip",
-        "choiceC": "calculator",
-        "correct": "A",
-        "category": "stationery",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/stationery/English/paper.ogg",
-        "choiceA": "paper",
-        "choiceB": "scissors",
-        "choiceC": "folder",
-        "correct": "A",
-        "category": "stationery",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/stationery/English/book.ogg",
-        "choiceA": "calculator",
-        "choiceB": "book",
-        "choiceC": "glue stick",
-        "correct": "B",
-        "category": "stationery",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/stationery/English/notebook.ogg",
-        "choiceA": "envelop",
-        "choiceB": "notebook",
-        "choiceC": "pen",
-        "correct": "B",
-        "category": "stationery",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/stationery/English/ruler.ogg",
-        "choiceA": "paper clip",
+        "oggSrc": "sound/stationery/english/notebook.ogg",
+        "choiceA": "notebook",
         "choiceB": "pencil sharpener",
-        "choiceC": "ruler",
-        "correct": "C",
-        "category": "stationery",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/stationery/English/eraser.ogg",
-        "choiceA": "eraser",
-        "choiceB": "paper clip",
-        "choiceC": "pencil",
-        "correct": "A",
-        "category": "stationery",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/stationery/English/pencil_sharpener.ogg",
-        "choiceA": "pencil sharpener",
-        "choiceB": "eraser",
-        "choiceC": "scissors",
-        "correct": "A",
-        "category": "stationery",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/stationery/English/calculator.ogg",
-        "choiceA": "envelop",
-        "choiceB": "pencil sharpener",
-        "choiceC": "calculator",
-        "correct": "C",
-        "category": "stationery",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/stationery/English/folder.ogg",
-        "choiceA": "envelop",
-        "choiceB": "paper",
-        "choiceC": "folder",
-        "correct": "C",
-        "category": "stationery",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/stationery/English/paper_clip.ogg",
-        "choiceA": "pencil",
-        "choiceB": "envelop",
-        "choiceC": "paper clip",
-        "correct": "C",
-        "category": "stationery",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/stationery/English/glue_stick.ogg",
-        "choiceA": "pencil",
-        "choiceB": "calculator",
         "choiceC": "glue stick",
-        "correct": "C",
+        "correct": "A",
         "category": "stationery",
         "level": 1
     },
     {
-        "oggSrc": "sound/stationery/English/scissors.ogg",
+        "oggSrc": "sound/stationery/english/ruler.ogg",
         "choiceA": "glue stick",
-        "choiceB": "scissors",
-        "choiceC": "calculator",
+        "choiceB": "ruler",
+        "choiceC": "notebook",
         "correct": "B",
         "category": "stationery",
         "level": 1
     },
     {
-        "oggSrc": "sound/stationery/English/envelop.ogg",
-        "choiceA": "cutter",
+        "oggSrc": "sound/stationery/english/eraser.ogg",
+        "choiceA": "eraser",
         "choiceB": "envelop",
-        "choiceC": "ruler",
+        "choiceC": "cutter",
+        "correct": "A",
+        "category": "stationery",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/stationery/english/pencil_sharpener.ogg",
+        "choiceA": "eraser",
+        "choiceB": "pencil sharpener",
+        "choiceC": "envelop",
         "correct": "B",
         "category": "stationery",
         "level": 1
     },
     {
-        "oggSrc": "sound/stationery/English/cutter.ogg",
+        "oggSrc": "sound/stationery/english/calculator.ogg",
+        "choiceA": "paper clip",
+        "choiceB": "calculator",
+        "choiceC": "notebook",
+        "correct": "B",
+        "category": "stationery",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/stationery/english/folder.ogg",
         "choiceA": "cutter",
-        "choiceB": "book",
+        "choiceB": "folder",
+        "choiceC": "envelop",
+        "correct": "B",
+        "category": "stationery",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/stationery/english/paper_clip.ogg",
+        "choiceA": "ruler",
+        "choiceB": "paper clip",
+        "choiceC": "notebook",
+        "correct": "B",
+        "category": "stationery",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/stationery/english/glue_stick.ogg",
+        "choiceA": "paper clip",
+        "choiceB": "envelop",
+        "choiceC": "glue stick",
+        "correct": "C",
+        "category": "stationery",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/stationery/english/scissors.ogg",
+        "choiceA": "envelop",
+        "choiceB": "scissors",
         "choiceC": "ruler",
+        "correct": "B",
+        "category": "stationery",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/stationery/english/envelop.ogg",
+        "choiceA": "glue stick",
+        "choiceB": "pen",
+        "choiceC": "envelop",
+        "correct": "C",
+        "category": "stationery",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/stationery/english/cutter.ogg",
+        "choiceA": "cutter",
+        "choiceB": "pencil",
+        "choiceC": "folder",
         "correct": "A",
         "category": "stationery",
         "level": 1
     },
     {
-        "oggSrc": "sound/toy/English/bicycle.ogg",
-        "choiceA": "card",
-        "choiceB": "bicycle",
-        "choiceC": "badminton",
-        "correct": "B",
-        "category": "toy",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/toy/English/tricycle.ogg",
-        "choiceA": "ball",
-        "choiceB": "doll",
-        "choiceC": "tricycle",
-        "correct": "C",
-        "category": "toy",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/toy/English/doll.ogg",
-        "choiceA": "doll",
-        "choiceB": "badminton",
-        "choiceC": "tricycle",
-        "correct": "A",
-        "category": "toy",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/toy/English/kite.ogg",
-        "choiceA": "bicycle",
-        "choiceB": "kite",
-        "choiceC": "card",
-        "correct": "B",
-        "category": "toy",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/toy/English/puzzle.ogg",
-        "choiceA": "bicycle",
-        "choiceB": "puzzle",
-        "choiceC": "ball",
-        "correct": "B",
-        "category": "toy",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/toy/English/card.ogg",
-        "choiceA": "kite",
-        "choiceB": "card",
-        "choiceC": "bicycle",
-        "correct": "B",
-        "category": "toy",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/toy/English/ball.ogg",
-        "choiceA": "table tennis",
-        "choiceB": "puzzle",
-        "choiceC": "ball",
-        "correct": "C",
-        "category": "toy",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/toy/English/football.ogg",
-        "choiceA": "puzzle",
-        "choiceB": "football",
-        "choiceC": "card",
-        "correct": "B",
-        "category": "toy",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/toy/English/basketball.ogg",
-        "choiceA": "basketball",
-        "choiceB": "kite",
-        "choiceC": "tricycle",
-        "correct": "A",
-        "category": "toy",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/toy/English/badminton.ogg",
-        "choiceA": "basketball",
-        "choiceB": "card",
-        "choiceC": "badminton",
-        "correct": "C",
-        "category": "toy",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/toy/English/table_tennis.ogg",
-        "choiceA": "badminton",
+        "oggSrc": "sound/toy/english/bicycle.ogg",
+        "choiceA": "tricycle",
         "choiceB": "table tennis",
-        "choiceC": "ball",
+        "choiceC": "bicycle",
+        "correct": "C",
+        "category": "toy",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/toy/english/tricycle.ogg",
+        "choiceA": "doll",
+        "choiceB": "tricycle",
+        "choiceC": "card",
         "correct": "B",
         "category": "toy",
         "level": 1
     },
     {
-        "oggSrc": "sound/toy/English/tennis.ogg",
+        "oggSrc": "sound/toy/english/doll.ogg",
         "choiceA": "basketball",
-        "choiceB": "tennis",
+        "choiceB": "doll",
         "choiceC": "kite",
         "correct": "B",
         "category": "toy",
         "level": 1
     },
     {
-        "oggSrc": "sound/transportation/English/car.ogg",
-        "choiceA": "bus",
-        "choiceB": "car",
-        "choiceC": "boat",
+        "oggSrc": "sound/toy/english/kite.ogg",
+        "choiceA": "ball",
+        "choiceB": "kite",
+        "choiceC": "badminton",
         "correct": "B",
-        "category": "transportation",
+        "category": "toy",
         "level": 1
     },
     {
-        "oggSrc": "sound/transportation/English/van.ogg",
-        "choiceA": "submarine",
-        "choiceB": "van",
-        "choiceC": "helicopter",
+        "oggSrc": "sound/toy/english/puzzle.ogg",
+        "choiceA": "puzzle",
+        "choiceB": "football",
+        "choiceC": "tennis",
+        "correct": "A",
+        "category": "toy",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/toy/english/card.ogg",
+        "choiceA": "basketball",
+        "choiceB": "badminton",
+        "choiceC": "card",
+        "correct": "C",
+        "category": "toy",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/toy/english/ball.ogg",
+        "choiceA": "puzzle",
+        "choiceB": "ball",
+        "choiceC": "card",
         "correct": "B",
-        "category": "transportation",
+        "category": "toy",
         "level": 1
     },
     {
-        "oggSrc": "sound/transportation/English/taxi.ogg",
-        "choiceA": "taxi",
-        "choiceB": "tram",
-        "choiceC": "train",
+        "oggSrc": "sound/toy/english/football.ogg",
+        "choiceA": "doll",
+        "choiceB": "ball",
+        "choiceC": "football",
+        "correct": "C",
+        "category": "toy",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/toy/english/basketball.ogg",
+        "choiceA": "doll",
+        "choiceB": "basketball",
+        "choiceC": "football",
+        "correct": "B",
+        "category": "toy",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/toy/english/badminton.ogg",
+        "choiceA": "badminton",
+        "choiceB": "ball",
+        "choiceC": "basketball",
         "correct": "A",
-        "category": "transportation",
+        "category": "toy",
         "level": 1
     },
     {
-        "oggSrc": "sound/transportation/English/train.ogg",
-        "choiceA": "train",
-        "choiceB": "tank",
-        "choiceC": "cruise",
-        "correct": "A",
-        "category": "transportation",
+        "oggSrc": "sound/toy/english/table_tennis.ogg",
+        "choiceA": "bicycle",
+        "choiceB": "kite",
+        "choiceC": "table tennis",
+        "correct": "C",
+        "category": "toy",
         "level": 1
     },
     {
-        "oggSrc": "sound/transportation/English/tram.ogg",
-        "choiceA": "tram",
-        "choiceB": "submarine",
+        "oggSrc": "sound/toy/english/tennis.ogg",
+        "choiceA": "card",
+        "choiceB": "bicycle",
+        "choiceC": "tennis",
+        "correct": "C",
+        "category": "toy",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/transportation/english/car.ogg",
+        "choiceA": "car",
+        "choiceB": "fire engine",
         "choiceC": "police car",
         "correct": "A",
         "category": "transportation",
         "level": 1
     },
     {
-        "oggSrc": "sound/transportation/English/bus.ogg",
-        "choiceA": "bus",
+        "oggSrc": "sound/transportation/english/van.ogg",
+        "choiceA": "helicopter",
         "choiceB": "tank",
-        "choiceC": "police car",
-        "correct": "A",
+        "choiceC": "van",
+        "correct": "C",
         "category": "transportation",
         "level": 1
     },
     {
-        "oggSrc": "sound/transportation/English/plane.ogg",
+        "oggSrc": "sound/transportation/english/taxi.ogg",
+        "choiceA": "car",
+        "choiceB": "taxi",
+        "choiceC": "tram",
+        "correct": "B",
+        "category": "transportation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/transportation/english/train.ogg",
         "choiceA": "ship",
-        "choiceB": "boat",
+        "choiceB": "train",
+        "choiceC": "van",
+        "correct": "B",
+        "category": "transportation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/transportation/english/tram.ogg",
+        "choiceA": "plane",
+        "choiceB": "tram",
+        "choiceC": "tank",
+        "correct": "B",
+        "category": "transportation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/transportation/english/bus.ogg",
+        "choiceA": "cruise",
+        "choiceB": "bus",
+        "choiceC": "ambulance",
+        "correct": "B",
+        "category": "transportation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/transportation/english/plane.ogg",
+        "choiceA": "ship",
+        "choiceB": "tank",
         "choiceC": "plane",
         "correct": "C",
         "category": "transportation",
         "level": 1
     },
     {
-        "oggSrc": "sound/transportation/English/helicopter.ogg",
-        "choiceA": "bus",
+        "oggSrc": "sound/transportation/english/helicopter.ogg",
+        "choiceA": "car",
+        "choiceB": "cruise",
+        "choiceC": "helicopter",
+        "correct": "C",
+        "category": "transportation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/transportation/english/tank.ogg",
+        "choiceA": "tank",
+        "choiceB": "submarine",
+        "choiceC": "ship",
+        "correct": "A",
+        "category": "transportation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/transportation/english/ambulance.ogg",
+        "choiceA": "ambulance",
+        "choiceB": "bus",
+        "choiceC": "train",
+        "correct": "A",
+        "category": "transportation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/transportation/english/police_car.ogg",
+        "choiceA": "train",
+        "choiceB": "bus",
+        "choiceC": "police car",
+        "correct": "C",
+        "category": "transportation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/transportation/english/fire_engine.ogg",
+        "choiceA": "fighter",
+        "choiceB": "taxi",
+        "choiceC": "fire engine",
+        "correct": "C",
+        "category": "transportation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/transportation/english/ship.ogg",
+        "choiceA": "ship",
+        "choiceB": "fighter",
+        "choiceC": "police car",
+        "correct": "A",
+        "category": "transportation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/transportation/english/cruise.ogg",
+        "choiceA": "cruise",
         "choiceB": "helicopter",
         "choiceC": "fighter",
-        "correct": "B",
-        "category": "transportation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/transportation/English/tank.ogg",
-        "choiceA": "cruise",
-        "choiceB": "car",
-        "choiceC": "tank",
-        "correct": "C",
-        "category": "transportation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/transportation/English/ambulance.ogg",
-        "choiceA": "boat",
-        "choiceB": "taxi",
-        "choiceC": "ambulance",
-        "correct": "C",
-        "category": "transportation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/transportation/English/police_car.ogg",
-        "choiceA": "police car",
-        "choiceB": "ambulance",
-        "choiceC": "fire engine",
         "correct": "A",
         "category": "transportation",
         "level": 1
     },
     {
-        "oggSrc": "sound/transportation/English/fire_engine.ogg",
-        "choiceA": "fire engine",
-        "choiceB": "cruise",
-        "choiceC": "car",
-        "correct": "A",
-        "category": "transportation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/transportation/English/ship.ogg",
-        "choiceA": "taxi",
-        "choiceB": "van",
-        "choiceC": "ship",
-        "correct": "C",
-        "category": "transportation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/transportation/English/cruise.ogg",
-        "choiceA": "fighter",
-        "choiceB": "submarine",
-        "choiceC": "cruise",
-        "correct": "C",
-        "category": "transportation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/transportation/English/submarine.ogg",
-        "choiceA": "fire engine",
-        "choiceB": "submarine",
-        "choiceC": "helicopter",
-        "correct": "B",
-        "category": "transportation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/transportation/English/boat.ogg",
-        "choiceA": "helicopter",
+        "oggSrc": "sound/transportation/english/submarine.ogg",
+        "choiceA": "submarine",
         "choiceB": "boat",
-        "choiceC": "cruise",
-        "correct": "B",
+        "choiceC": "ambulance",
+        "correct": "A",
         "category": "transportation",
         "level": 1
     },
     {
-        "oggSrc": "sound/transportation/English/fighter.ogg",
-        "choiceA": "ship",
-        "choiceB": "plane",
-        "choiceC": "fighter",
-        "correct": "C",
-        "category": "transportation",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/transportation/English/bomber.ogg",
-        "choiceA": "ambulance",
-        "choiceB": "bomber",
+        "oggSrc": "sound/transportation/english/boat.ogg",
+        "choiceA": "tram",
+        "choiceB": "train",
         "choiceC": "boat",
-        "correct": "B",
+        "correct": "C",
         "category": "transportation",
         "level": 1
     },
     {
-        "oggSrc": "sound/world/English/China.ogg",
+        "oggSrc": "sound/transportation/english/fighter.ogg",
+        "choiceA": "fighter",
+        "choiceB": "train",
+        "choiceC": "van",
+        "correct": "A",
+        "category": "transportation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/transportation/english/bomber.ogg",
+        "choiceA": "bomber",
+        "choiceB": "train",
+        "choiceC": "fighter",
+        "correct": "A",
+        "category": "transportation",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/world/english/China.ogg",
         "choiceA": "China",
-        "choiceB": "Canada",
-        "choiceC": "Russia",
+        "choiceB": "Chile",
+        "choiceC": "Sweden",
         "correct": "A",
         "category": "world",
         "level": 1
     },
     {
-        "oggSrc": "sound/world/English/America.ogg",
-        "choiceA": "America",
-        "choiceB": "New Zealand",
-        "choiceC": "Spain",
-        "correct": "A",
-        "category": "world",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/world/English/Britain.ogg",
-        "choiceA": "Portugal",
+        "oggSrc": "sound/world/english/America.ogg",
+        "choiceA": "Italy",
         "choiceB": "Cuba",
-        "choiceC": "Britain",
-        "correct": "C",
-        "category": "world",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/world/English/Germany.ogg",
-        "choiceA": "Germany",
-        "choiceB": "Brazil",
-        "choiceC": "Australia",
-        "correct": "A",
-        "category": "world",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/world/English/Japan.ogg",
-        "choiceA": "Indonesia",
-        "choiceB": "Taiwan",
-        "choiceC": "Japan",
-        "correct": "C",
-        "category": "world",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/world/English/Hong_Kong.ogg",
-        "choiceA": "China",
-        "choiceB": "Belgium",
-        "choiceC": "Hong Kong",
-        "correct": "C",
-        "category": "world",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/world/English/Taiwan.ogg",
-        "choiceA": "Taiwan",
-        "choiceB": "India",
-        "choiceC": "Ireland",
-        "correct": "A",
-        "category": "world",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/world/English/South_Korea.ogg",
-        "choiceA": "Brazil",
-        "choiceB": "Sweden",
-        "choiceC": "South Korea",
-        "correct": "C",
-        "category": "world",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/world/English/North_Korea.ogg",
-        "choiceA": "North Korea",
-        "choiceB": "Brazil",
         "choiceC": "America",
-        "correct": "A",
-        "category": "world",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/world/English/Brazil.ogg",
-        "choiceA": "Portugal",
-        "choiceB": "France",
-        "choiceC": "Brazil",
         "correct": "C",
         "category": "world",
         "level": 1
     },
     {
-        "oggSrc": "sound/world/English/Italy.ogg",
-        "choiceA": "Taiwan",
-        "choiceB": "Italy",
-        "choiceC": "New Zealand",
-        "correct": "B",
-        "category": "world",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/world/English/Switzerland.ogg",
-        "choiceA": "Switzerland",
-        "choiceB": "Greece",
+        "oggSrc": "sound/world/english/Britain.ogg",
+        "choiceA": "Britain",
+        "choiceB": "Canada",
         "choiceC": "Cuba",
         "correct": "A",
         "category": "world",
         "level": 1
     },
     {
-        "oggSrc": "sound/world/English/Russia.ogg",
-        "choiceA": "Hong Kong",
-        "choiceB": "Russia",
-        "choiceC": "Spain",
-        "correct": "B",
-        "category": "world",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/world/English/Belgium.ogg",
-        "choiceA": "France",
-        "choiceB": "Australia",
-        "choiceC": "Belgium",
-        "correct": "C",
-        "category": "world",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/world/English/Portugal.ogg",
-        "choiceA": "Portugal",
-        "choiceB": "South Korea",
-        "choiceC": "Macau",
+        "oggSrc": "sound/world/english/Germany.ogg",
+        "choiceA": "Germany",
+        "choiceB": "Iceland",
+        "choiceC": "Argentina",
         "correct": "A",
         "category": "world",
         "level": 1
     },
     {
-        "oggSrc": "sound/world/English/Spain.ogg",
-        "choiceA": "Spain",
+        "oggSrc": "sound/world/english/Japan.ogg",
+        "choiceA": "Japan",
+        "choiceB": "Spain",
+        "choiceC": "Germany",
+        "correct": "A",
+        "category": "world",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/world/english/Hong_Kong.ogg",
+        "choiceA": "Switzerland",
         "choiceB": "Hong Kong",
-        "choiceC": "Greece",
-        "correct": "A",
-        "category": "world",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/world/English/Ireland.ogg",
-        "choiceA": "China",
-        "choiceB": "Ireland",
         "choiceC": "Canada",
         "correct": "B",
         "category": "world",
         "level": 1
     },
     {
-        "oggSrc": "sound/world/English/France.ogg",
-        "choiceA": "Israel",
-        "choiceB": "France",
-        "choiceC": "South Korea",
+        "oggSrc": "sound/world/english/Taiwan.ogg",
+        "choiceA": "Taiwan",
+        "choiceB": "Israel",
+        "choiceC": "Vietnam",
+        "correct": "A",
+        "category": "world",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/world/english/South_Korea.ogg",
+        "choiceA": "Pakistan",
+        "choiceB": "South Korea",
+        "choiceC": "Singapore",
         "correct": "B",
         "category": "world",
         "level": 1
     },
     {
-        "oggSrc": "sound/world/English/India.ogg",
-        "choiceA": "Spain",
-        "choiceB": "France",
+        "oggSrc": "sound/world/english/North_Korea.ogg",
+        "choiceA": "Switzerland",
+        "choiceB": "North Korea",
+        "choiceC": "Britain",
+        "correct": "B",
+        "category": "world",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/world/english/Brazil.ogg",
+        "choiceA": "Brazil",
+        "choiceB": "Poland",
+        "choiceC": "Macau",
+        "correct": "A",
+        "category": "world",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/world/english/Italy.ogg",
+        "choiceA": "Italy",
+        "choiceB": "Macau",
+        "choiceC": "Poland",
+        "correct": "A",
+        "category": "world",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/world/english/Switzerland.ogg",
+        "choiceA": "Israel",
+        "choiceB": "Thailand",
+        "choiceC": "Switzerland",
+        "correct": "C",
+        "category": "world",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/world/english/Russia.ogg",
+        "choiceA": "Poland",
+        "choiceB": "Russia",
+        "choiceC": "France",
+        "correct": "B",
+        "category": "world",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/world/english/Belgium.ogg",
+        "choiceA": "Belgium",
+        "choiceB": "India",
+        "choiceC": "Thailand",
+        "correct": "A",
+        "category": "world",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/world/english/Portugal.ogg",
+        "choiceA": "Indonesia",
+        "choiceB": "Japan",
+        "choiceC": "Portugal",
+        "correct": "C",
+        "category": "world",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/world/english/Spain.ogg",
+        "choiceA": "Iceland",
+        "choiceB": "Spain",
+        "choiceC": "Argentina",
+        "correct": "B",
+        "category": "world",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/world/english/Ireland.ogg",
+        "choiceA": "Ireland",
+        "choiceB": "Pakistan",
+        "choiceC": "Macau",
+        "correct": "A",
+        "category": "world",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/world/english/France.ogg",
+        "choiceA": "France",
+        "choiceB": "America",
+        "choiceC": "Sweden",
+        "correct": "A",
+        "category": "world",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/world/english/India.ogg",
+        "choiceA": "Macau",
+        "choiceB": "South Korea",
         "choiceC": "India",
         "correct": "C",
         "category": "world",
         "level": 1
     },
     {
-        "oggSrc": "sound/world/English/Indonesia.ogg",
-        "choiceA": "Indonesia",
-        "choiceB": "Brazil",
-        "choiceC": "Pakistan",
-        "correct": "A",
-        "category": "world",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/world/English/Vietnam.ogg",
-        "choiceA": "Japan",
-        "choiceB": "Spain",
-        "choiceC": "Vietnam",
+        "oggSrc": "sound/world/english/Indonesia.ogg",
+        "choiceA": "New Zealand",
+        "choiceB": "Thailand",
+        "choiceC": "Indonesia",
         "correct": "C",
         "category": "world",
         "level": 1
     },
     {
-        "oggSrc": "sound/world/English/Philippines.ogg",
-        "choiceA": "Iceland",
-        "choiceB": "Philippines",
-        "choiceC": "New Zealand",
-        "correct": "B",
-        "category": "world",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/world/English/Thailand.ogg",
-        "choiceA": "Thailand",
-        "choiceB": "Ireland",
-        "choiceC": "Philippines",
+        "oggSrc": "sound/world/english/Vietnam.ogg",
+        "choiceA": "Vietnam",
+        "choiceB": "Japan",
+        "choiceC": "Greece",
         "correct": "A",
         "category": "world",
         "level": 1
     },
     {
-        "oggSrc": "sound/world/English/Macau.ogg",
-        "choiceA": "Portugal",
-        "choiceB": "Brazil",
+        "oggSrc": "sound/world/english/Philippines.ogg",
+        "choiceA": "Mexico",
+        "choiceB": "China",
+        "choiceC": "Philippines",
+        "correct": "C",
+        "category": "world",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/world/english/Thailand.ogg",
+        "choiceA": "Finland",
+        "choiceB": "Thailand",
+        "choiceC": "Switzerland",
+        "correct": "B",
+        "category": "world",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/world/english/Macau.ogg",
+        "choiceA": "Ireland",
+        "choiceB": "New Zealand",
         "choiceC": "Macau",
         "correct": "C",
         "category": "world",
         "level": 1
     },
     {
-        "oggSrc": "sound/world/English/Australia.ogg",
-        "choiceA": "Russia",
-        "choiceB": "Britain",
-        "choiceC": "Australia",
-        "correct": "C",
-        "category": "world",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/world/English/Poland.ogg",
-        "choiceA": "Poland",
-        "choiceB": "Canada",
-        "choiceC": "Germany",
-        "correct": "A",
-        "category": "world",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/world/English/Iceland.ogg",
-        "choiceA": "Iceland",
-        "choiceB": "Singapore",
-        "choiceC": "South Korea",
-        "correct": "A",
-        "category": "world",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/world/English/Mexico.ogg",
-        "choiceA": "Philippines",
-        "choiceB": "China",
+        "oggSrc": "sound/world/english/Australia.ogg",
+        "choiceA": "Australia",
+        "choiceB": "Spain",
         "choiceC": "Mexico",
-        "correct": "C",
+        "correct": "A",
         "category": "world",
         "level": 1
     },
     {
-        "oggSrc": "sound/world/English/Canada.ogg",
-        "choiceA": "Cuba",
-        "choiceB": "Indonesia",
-        "choiceC": "Canada",
-        "correct": "C",
+        "oggSrc": "sound/world/english/Poland.ogg",
+        "choiceA": "Poland",
+        "choiceB": "Belgium",
+        "choiceC": "Ireland",
+        "correct": "A",
         "category": "world",
         "level": 1
     },
     {
-        "oggSrc": "sound/world/English/Argentina.ogg",
-        "choiceA": "Germany",
-        "choiceB": "Cuba",
-        "choiceC": "Argentina",
-        "correct": "C",
+        "oggSrc": "sound/world/english/Iceland.ogg",
+        "choiceA": "Iceland",
+        "choiceB": "Sweden",
+        "choiceC": "Greece",
+        "correct": "A",
         "category": "world",
         "level": 1
     },
     {
-        "oggSrc": "sound/world/English/New_Zealand.ogg",
-        "choiceA": "Finland",
-        "choiceB": "Switzerland",
-        "choiceC": "New Zealand",
-        "correct": "C",
-        "category": "world",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/world/English/Chile.ogg",
-        "choiceA": "Thailand",
-        "choiceB": "Chile",
-        "choiceC": "Finland",
+        "oggSrc": "sound/world/english/Mexico.ogg",
+        "choiceA": "Macau",
+        "choiceB": "Mexico",
+        "choiceC": "Chile",
         "correct": "B",
         "category": "world",
         "level": 1
     },
     {
-        "oggSrc": "sound/world/English/Finland.ogg",
-        "choiceA": "Finland",
+        "oggSrc": "sound/world/english/Canada.ogg",
+        "choiceA": "Canada",
+        "choiceB": "Cuba",
+        "choiceC": "Argentina",
+        "correct": "A",
+        "category": "world",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/world/english/Argentina.ogg",
+        "choiceA": "Macau",
+        "choiceB": "Argentina",
+        "choiceC": "Chile",
+        "correct": "B",
+        "category": "world",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/world/english/New_Zealand.ogg",
+        "choiceA": "India",
+        "choiceB": "New Zealand",
+        "choiceC": "Russia",
+        "correct": "B",
+        "category": "world",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/world/english/Chile.ogg",
+        "choiceA": "Chile",
         "choiceB": "Russia",
+        "choiceC": "Taiwan",
+        "correct": "A",
+        "category": "world",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/world/english/Finland.ogg",
+        "choiceA": "Finland",
+        "choiceB": "Thailand",
         "choiceC": "Switzerland",
         "correct": "A",
         "category": "world",
         "level": 1
     },
     {
-        "oggSrc": "sound/world/English/Singapore.ogg",
-        "choiceA": "South Korea",
-        "choiceB": "Cuba",
-        "choiceC": "Singapore",
-        "correct": "C",
+        "oggSrc": "sound/world/english/Singapore.ogg",
+        "choiceA": "Singapore",
+        "choiceB": "South Korea",
+        "choiceC": "Brazil",
+        "correct": "A",
         "category": "world",
         "level": 1
     },
     {
-        "oggSrc": "sound/world/English/Pakistan.ogg",
-        "choiceA": "Philippines",
+        "oggSrc": "sound/world/english/Pakistan.ogg",
+        "choiceA": "Brazil",
         "choiceB": "Pakistan",
+        "choiceC": "New Zealand",
+        "correct": "B",
+        "category": "world",
+        "level": 1
+    },
+    {
+        "oggSrc": "sound/world/english/Sweden.ogg",
+        "choiceA": "Japan",
+        "choiceB": "Sweden",
         "choiceC": "Portugal",
         "correct": "B",
         "category": "world",
         "level": 1
     },
     {
-        "oggSrc": "sound/world/English/Sweden.ogg",
-        "choiceA": "Sweden",
+        "oggSrc": "sound/world/english/Israel.ogg",
+        "choiceA": "Israel",
         "choiceB": "Hong Kong",
-        "choiceC": "Germany",
+        "choiceC": "Ireland",
         "correct": "A",
         "category": "world",
         "level": 1
     },
     {
-        "oggSrc": "sound/world/English/Israel.ogg",
-        "choiceA": "Germany",
-        "choiceB": "North Korea",
-        "choiceC": "Israel",
+        "oggSrc": "sound/world/english/Greece.ogg",
+        "choiceA": "Iceland",
+        "choiceB": "Spain",
+        "choiceC": "Greece",
         "correct": "C",
         "category": "world",
         "level": 1
     },
     {
-        "oggSrc": "sound/world/English/Greece.ogg",
-        "choiceA": "China",
-        "choiceB": "Greece",
-        "choiceC": "Australia",
-        "correct": "B",
-        "category": "world",
-        "level": 1
-    },
-    {
-        "oggSrc": "sound/world/English/Cuba.ogg",
+        "oggSrc": "sound/world/english/Cuba.ogg",
         "choiceA": "Cuba",
-        "choiceB": "Britain",
-        "choiceC": "Mexico",
+        "choiceB": "France",
+        "choiceC": "Switzerland",
         "correct": "A",
         "category": "world",
         "level": 1
